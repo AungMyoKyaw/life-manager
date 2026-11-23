@@ -1,0 +1,21 @@
+[
+  {"command": "file.new", "params": {"name": "LifeManager-AppIcon", "width": 512, "height": 512}},
+  {"command": "shape.rectangle", "params": {"x": 0, "y": 0, "width": 512, "height": 512, "radius": 112}},
+  {"command": "paint.setFill", "params": {"color": "#162929"}},
+  {"command": "paint.setStroke", "params": {"none": true}},
+  {"command": "shape.rectangle", "params": {"x": 10, "y": 10, "width": 492, "height": 492, "radius": 104}},
+  {"command": "paint.setFill", "params": {"none": true}},
+  {"command": "paint.setStroke", "params": {"color": "#243B3A"}},
+  {"command": "stroke.set", "params": {"weight": 2}},
+  {"command": "path.create", "params": {"d": "M 158 148 L 158 248 C 158 309 207 358 268 358 L 278 358", "closed": false}},
+  {"command": "paint.setFill", "params": {"none": true}},
+  {"command": "paint.setStroke", "params": {"color": "#B7D7C8"}},
+  {"command": "stroke.set", "params": {"weight": 60, "cap": "round", "join": "round"}},
+  {"command": "path.create", "params": {"d": "M 354 364 L 354 264 C 354 203 305 154 244 154 L 234 154", "closed": false}},
+  {"command": "paint.setFill", "params": {"none": true}},
+  {"command": "paint.setStroke", "params": {"color": "#419677"}},
+  {"command": "stroke.set", "params": {"weight": 60, "cap": "round", "join": "round"}},
+  {"command": "shape.ellipse", "params": {"x": 236, "y": 236, "width": 40, "height": 40}},
+  {"command": "paint.setFill", "params": {"color": "#F6F7F5"}},
+  {"command": "paint.setStroke", "params": {"none": true}}
+]

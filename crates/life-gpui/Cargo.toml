@@ -1,0 +1,28 @@
+[package]
+name = "life-gpui"
+version = "0.1.0"
+description = "Life Manager — native GPUI desktop application for macOS"
+edition = "2024"
+
+[lib]
+name = "life_gpui"
+path = "src/lib.rs"
+
+[[bin]]
+name = "life-gpui"
+path = "src/main.rs"
+
+[dependencies]
+gpui-kit = "0.11.0"
+# Enable `icu_provider/logging` so `icu_segmenter` (used by `gpui-pre` line wrapping)
+# routes complex-script fallback diagnostics (e.g. Myanmar) through `log::warn!`
+# instead of `std::eprintln!` on every frame in debug builds.
+icu_provider = { version = "2.4.0", features = ["logging"] }
+life-core = { path = "../life-core" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", features = ["serde", "clock"] }
+
+[dev-dependencies]
+gpui-kit = { version = "0.11.0", features = ["test-support"] }
+tempfile = "3"

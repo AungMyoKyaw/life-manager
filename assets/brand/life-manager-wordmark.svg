@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="320" viewBox="0 0 1200 320">
+  <title>LifeManager-Wordmark</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M94 40 L226 40 C255.823 40 280 64.177 280 94 L280 226 C280 255.823 255.823 280 226 280 L94 280 C64.177 280 40 255.823 40 226 L40 94 C40 64.177 64.177 40 94 40 Z" fill="#162929"/>
+    <path d="M114 109 L114 156 C114 185 137 208 166 208 L170 208" fill="none" stroke="#b7d7c8" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M206 211 L206 164 C206 135 183 112 154 112 L150 112" fill="none" stroke="#419677" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="160" cy="160" r="10" fill="#f6f7f5"/>
+    <text transform="matrix(1 0 0 1 328 162)" x="0" y="0" xml:space="preserve" font-family="&apos;Helvetica Neue&apos;, sans-serif" font-size="108" font-weight="bold" fill="#19292a" letter-spacing="-2.16"><tspan x="0" y="0">Life Manager</tspan></text>
+    <text transform="matrix(1 0 0 1 332 230)" x="0" y="0" xml:space="preserve" font-family="&apos;Helvetica Neue&apos;, sans-serif" font-size="22" font-weight="500" fill="#647779" letter-spacing="3.08"><tspan x="0" y="0">LOCAL-FIRST PERSONAL WORKSPACE</tspan></text>
+  </g>
+</svg>

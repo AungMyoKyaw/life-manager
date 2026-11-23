@@ -1,0 +1,1 @@
+FigCraft reference: test attachment bytes retained in local SQLite.

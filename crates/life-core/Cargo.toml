@@ -1,0 +1,21 @@
+[package]
+name = "life-core"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# SQLCipher replaces the bundled SQLite so the database can be encrypted at
+# rest. The backup feature is kept for plain databases; encrypted databases
+# use the SQLCipher export path instead.
+rusqlite = { version = "0.37", features = ["bundled-sqlcipher", "chrono", "serde_json", "backup"] }
+argon2 = { version = "0.5", features = ["std"] }
+getrandom = "0.3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", features = ["serde", "clock"] }
+chrono-tz = "0.10"
+uuid = { version = "1", features = ["v7", "serde"] }
+dirs = "6"
+thiserror = "2"
+sha2 = "0.10.9"
+base64 = "0.23.1"

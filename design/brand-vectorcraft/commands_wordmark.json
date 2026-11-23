@@ -1,0 +1,21 @@
+[
+  {"command": "file.new", "params": {"name": "LifeManager-Wordmark", "width": 1200, "height": 320}},
+  {"command": "shape.rectangle", "params": {"x": 40, "y": 40, "width": 240, "height": 240, "radius": 54}},
+  {"command": "paint.setFill", "params": {"color": "#162929"}},
+  {"command": "paint.setStroke", "params": {"none": true}},
+  {"command": "path.create", "params": {"d": "M 114 109 L 114 156 C 114 185 137 208 166 208 L 170 208", "closed": false}},
+  {"command": "paint.setFill", "params": {"none": true}},
+  {"command": "paint.setStroke", "params": {"color": "#B7D7C8"}},
+  {"command": "stroke.set", "params": {"weight": 28, "cap": "round", "join": "round"}},
+  {"command": "path.create", "params": {"d": "M 206 211 L 206 164 C 206 135 183 112 154 112 L 150 112", "closed": false}},
+  {"command": "paint.setFill", "params": {"none": true}},
+  {"command": "paint.setStroke", "params": {"color": "#419677"}},
+  {"command": "stroke.set", "params": {"weight": 28, "cap": "round", "join": "round"}},
+  {"command": "shape.ellipse", "params": {"x": 150, "y": 150, "width": 20, "height": 20}},
+  {"command": "paint.setFill", "params": {"color": "#F6F7F5"}},
+  {"command": "paint.setStroke", "params": {"none": true}},
+  {"command": "text.create", "params": {"x": 328, "y": 162, "text": "Life Manager", "font": "Helvetica Neue", "style": "Bold", "size": 108, "color": "#19292A"}},
+  {"command": "text.setStyle", "params": {"tracking": -20}},
+  {"command": "text.create", "params": {"x": 332, "y": 230, "text": "LOCAL-FIRST PERSONAL WORKSPACE", "font": "Helvetica Neue", "style": "Medium", "size": 22, "color": "#647779"}},
+  {"command": "text.setStyle", "params": {"tracking": 140}}
+]

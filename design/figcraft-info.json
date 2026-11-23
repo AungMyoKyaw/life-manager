@@ -1,0 +1,1793 @@
+{
+  "file": "design/life-manager-master.figcraft",
+  "images": 0,
+  "missingFonts": [],
+  "name": "Life Manager \u2014 Experience Master",
+  "nodes": 20384,
+  "notes": [],
+  "pages": [
+    {
+      "frames": [
+        {
+          "height": 900.0,
+          "id": 2,
+          "name": "001 \u00b7 System overview",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 89,
+          "name": "002 \u00b7 App shell \u00b7 spacious",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 222,
+          "name": "003 \u00b7 App shell \u00b7 compact",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 351,
+          "name": "004 \u00b7 Component states",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 425,
+          "name": "005 \u00b7 Color and type tokens",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 512,
+          "name": "006 \u00b7 Global command palette",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 588,
+          "name": "007 \u00b7 Quick-add overlay",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 667,
+          "name": "008 \u00b7 Responsive small window",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 749,
+          "name": "009 \u00b7 Dark appearance",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 805,
+          "name": "010 \u00b7 Accessibility inspection",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 879,
+          "name": "011 \u00b7 Accessibility audit",
+          "type": "FRAME",
+          "width": 1440.0
+        }
+      ],
+      "id": 1,
+      "name": "01 Foundation",
+      "nodes": 964,
+      "topLevel": 11
+    },
+    {
+      "frames": [
+        {
+          "height": 900.0,
+          "id": 967,
+          "name": "012 \u00b7 Welcome to Life Manager",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 1002,
+          "name": "013 \u00b7 Choose your life areas",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 1043,
+          "name": "014 \u00b7 Select initial priorities",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 1083,
+          "name": "015 \u00b7 Choose your time zone",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 1117,
+          "name": "016 \u00b7 Configure availability",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 1160,
+          "name": "017 \u00b7 Choose reminders",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 1200,
+          "name": "018 \u00b7 Create first task",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 1236,
+          "name": "019 \u00b7 Ready to plan",
+          "type": "FRAME",
+          "width": 1440.0
+        }
+      ],
+      "id": 966,
+      "name": "02 First-run setup",
+      "nodes": 310,
+      "topLevel": 8
+    },
+    {
+      "frames": [
+        {
+          "height": 900.0,
+          "id": 1278,
+          "name": "020 \u00b7 Today \u00b7 default",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 1409,
+          "name": "021 \u00b7 Today \u00b7 busy day",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 1540,
+          "name": "022 \u00b7 Today \u00b7 nothing due",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 1600,
+          "name": "023 \u00b7 Next seven days",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 1691,
+          "name": "024 \u00b7 Universal inbox",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 1818,
+          "name": "025 \u00b7 Inbox \u00b7 capture workflow",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 1909,
+          "name": "026 \u00b7 Inbox \u00b7 processed",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 1969,
+          "name": "027 \u00b7 Create task from text",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 2046,
+          "name": "028 \u00b7 Notification center",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 2173,
+          "name": "029 \u00b7 Evening wind-down",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 2304,
+          "name": "030 \u00b7 Today \u00b7 delayed work",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 2431,
+          "name": "031 \u00b7 Tomorrow preview",
+          "type": "FRAME",
+          "width": 1440.0
+        }
+      ],
+      "id": 1277,
+      "name": "03 Today and Inbox",
+      "nodes": 1284,
+      "topLevel": 12
+    },
+    {
+      "frames": [
+        {
+          "height": 900.0,
+          "id": 2563,
+          "name": "032 \u00b7 Tasks \u00b7 all",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 2690,
+          "name": "033 \u00b7 Tasks \u00b7 Today filter",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 2817,
+          "name": "034 \u00b7 Tasks \u00b7 Priority filter",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 2944,
+          "name": "035 \u00b7 Task detail \u00b7 open",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 3035,
+          "name": "036 \u00b7 Task detail \u00b7 subtasks",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 3126,
+          "name": "037 \u00b7 Task detail \u00b7 activity",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 3217,
+          "name": "038 \u00b7 Entity activity timeline",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 3308,
+          "name": "039 \u00b7 Task dependencies",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 3436,
+          "name": "040 \u00b7 Recurring task editor",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 3513,
+          "name": "041 \u00b7 Recurrence exception editor",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 3604,
+          "name": "042 \u00b7 Task templates",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 3732,
+          "name": "043 \u00b7 Bulk-edit selection",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 3809,
+          "name": "044 \u00b7 Task archive",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 3936,
+          "name": "045 \u00b7 Task restore",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 4013,
+          "name": "046 \u00b7 Overdue task decision",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 4090,
+          "name": "047 \u00b7 Overdue decision sheet",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 4167,
+          "name": "048 \u00b7 Smart saved views",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 4294,
+          "name": "049 \u00b7 Saved view runner",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 4421,
+          "name": "050 \u00b7 Task scheduling detail",
+          "type": "FRAME",
+          "width": 1440.0
+        }
+      ],
+      "id": 2562,
+      "name": "04 Task management",
+      "nodes": 1949,
+      "topLevel": 19
+    },
+    {
+      "frames": [
+        {
+          "height": 900.0,
+          "id": 4513,
+          "name": "051 \u00b7 Project portfolio",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 4598,
+          "name": "052 \u00b7 Projects \u00b7 all",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 4725,
+          "name": "053 \u00b7 Project \u00b7 summary",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 4802,
+          "name": "054 \u00b7 Project \u00b7 Kanban",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 4930,
+          "name": "055 \u00b7 Project \u00b7 timeline",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 5054,
+          "name": "056 \u00b7 Project \u00b7 milestones",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 5181,
+          "name": "057 \u00b7 Project \u00b7 blockers",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 5256,
+          "name": "058 \u00b7 Blocker resolution",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 5384,
+          "name": "059 \u00b7 Project health report",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 5466,
+          "name": "060 \u00b7 Project templates",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 5594,
+          "name": "061 \u00b7 Project notes",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 5671,
+          "name": "062 \u00b7 Paused and archived projects",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 5798,
+          "name": "063 \u00b7 Project completion review",
+          "type": "FRAME",
+          "width": 1440.0
+        }
+      ],
+      "id": 4512,
+      "name": "05 Projects and milestones",
+      "nodes": 1362,
+      "topLevel": 13
+    },
+    {
+      "frames": [
+        {
+          "height": 900.0,
+          "id": 5876,
+          "name": "064 \u00b7 Goals overview",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 5944,
+          "name": "065 \u00b7 Goal detail",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 6035,
+          "name": "066 \u00b7 Quarterly priorities",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 6163,
+          "name": "067 \u00b7 Annual direction",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 6311,
+          "name": "068 \u00b7 OKR objective details",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 6402,
+          "name": "069 \u00b7 Goal progress history",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 6470,
+          "name": "070 \u00b7 Goal monthly review",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 6561,
+          "name": "071 \u00b7 Monthly goal review",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 6652,
+          "name": "072 \u00b7 Goal completed",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 6712,
+          "name": "073 \u00b7 Goal paused or abandoned",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 6786,
+          "name": "074 \u00b7 Active-goal limit",
+          "type": "FRAME",
+          "width": 1440.0
+        }
+      ],
+      "id": 5875,
+      "name": "06 Goals and direction",
+      "nodes": 984,
+      "topLevel": 11
+    },
+    {
+      "frames": [
+        {
+          "height": 900.0,
+          "id": 6861,
+          "name": "075 \u00b7 Calendar \u00b7 day",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 6952,
+          "name": "076 \u00b7 Calendar \u00b7 three days",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 7052,
+          "name": "077 \u00b7 Calendar \u00b7 week",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 7164,
+          "name": "078 \u00b7 Calendar \u00b7 month",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 7322,
+          "name": "079 \u00b7 Calendar \u00b7 agenda",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 7421,
+          "name": "080 \u00b7 Create an event",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 7498,
+          "name": "081 \u00b7 Edit an event",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 7589,
+          "name": "082 \u00b7 Recurring event",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 7666,
+          "name": "083 \u00b7 All-day commitments",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 7780,
+          "name": "084 \u00b7 Calendar conflict",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 7848,
+          "name": "085 \u00b7 Time-zone travel",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 7962,
+          "name": "086 \u00b7 External calendar overlay",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 8076,
+          "name": "087 \u00b7 ICS import preview",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 8153,
+          "name": "088 \u00b7 Calendar \u00b7 no events",
+          "type": "FRAME",
+          "width": 1440.0
+        }
+      ],
+      "id": 6860,
+      "name": "07 Calendar",
+      "nodes": 1352,
+      "topLevel": 14
+    },
+    {
+      "frames": [
+        {
+          "height": 900.0,
+          "id": 8214,
+          "name": "089 \u00b7 Daily planning session",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 8320,
+          "name": "090 \u00b7 Daily planning recorder",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 8426,
+          "name": "091 \u00b7 Available capacity",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 8524,
+          "name": "092 \u00b7 Weekly time budget",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 8630,
+          "name": "093 \u00b7 Protected time editor",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 8723,
+          "name": "094 \u00b7 Time-block schedule",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 8835,
+          "name": "095 \u00b7 Automatic schedule proposal",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 8941,
+          "name": "096 \u00b7 Proposal approval",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 9018,
+          "name": "097 \u00b7 Conflict resolution",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 9086,
+          "name": "098 \u00b7 Protected time",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 9200,
+          "name": "099 \u00b7 Unfinished work carryover",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 9327,
+          "name": "100 \u00b7 Travel and buffer time",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 9433,
+          "name": "101 \u00b7 Time budget overrun",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 9501,
+          "name": "102 \u00b7 Next-week preparation",
+          "type": "FRAME",
+          "width": 1440.0
+        }
+      ],
+      "id": 8213,
+      "name": "08 Scheduling and planning",
+      "nodes": 1393,
+      "topLevel": 14
+    },
+    {
+      "frames": [
+        {
+          "height": 900.0,
+          "id": 9608,
+          "name": "103 \u00b7 Focus \u00b7 choose task",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 9699,
+          "name": "104 \u00b7 Focus \u00b7 active",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 9772,
+          "name": "105 \u00b7 Focus \u00b7 paused",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 9845,
+          "name": "106 \u00b7 Focus \u00b7 short break",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 9918,
+          "name": "107 \u00b7 Focus \u00b7 completed",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 10016,
+          "name": "108 \u00b7 Focus \u00b7 Pomodoro",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 10089,
+          "name": "109 \u00b7 Focus presets and manual entry",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 10163,
+          "name": "110 \u00b7 Focus \u00b7 stopwatch",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 10236,
+          "name": "111 \u00b7 Idle activity review",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 10310,
+          "name": "112 \u00b7 Interrupted session",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 10384,
+          "name": "113 \u00b7 Manual time entry",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 10461,
+          "name": "114 \u00b7 Time log history",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 10541,
+          "name": "115 \u00b7 Focus trends",
+          "type": "FRAME",
+          "width": 1440.0
+        }
+      ],
+      "id": 9607,
+      "name": "09 Deep work and time",
+      "nodes": 1031,
+      "topLevel": 13
+    },
+    {
+      "frames": [
+        {
+          "height": 900.0,
+          "id": 10640,
+          "name": "116 \u00b7 Habits \u00b7 weekly",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 10781,
+          "name": "117 \u00b7 Habits \u00b7 daily checklist",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 10908,
+          "name": "118 \u00b7 Habit detail",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 10999,
+          "name": "119 \u00b7 Create a habit",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 11076,
+          "name": "120 \u00b7 Routine builder",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 11162,
+          "name": "121 \u00b7 Morning routine",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 11303,
+          "name": "122 \u00b7 Evening routine",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 11444,
+          "name": "123 \u00b7 Habit skip decision",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 11518,
+          "name": "124 \u00b7 Consistency analysis",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 11616,
+          "name": "125 \u00b7 Habit reminders",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 11709,
+          "name": "126 \u00b7 Routine completion",
+          "type": "FRAME",
+          "width": 1440.0
+        }
+      ],
+      "id": 10639,
+      "name": "10 Habits and routines",
+      "nodes": 1129,
+      "topLevel": 11
+    },
+    {
+      "frames": [
+        {
+          "height": 900.0,
+          "id": 11770,
+          "name": "127 \u00b7 Notes library",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 11897,
+          "name": "128 \u00b7 Note editor",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 11974,
+          "name": "129 \u00b7 Note links and backlinks",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 12051,
+          "name": "130 \u00b7 Attached files",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 12142,
+          "name": "131 \u00b7 Global search",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 12269,
+          "name": "132 \u00b7 Filtered search results",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 12396,
+          "name": "133 \u00b7 Search with no results",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 12456,
+          "name": "134 \u00b7 Quick capture palette",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 12533,
+          "name": "135 \u00b7 Capture parser",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 12610,
+          "name": "136 \u00b7 Inbox processing workflow",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 12701,
+          "name": "137 \u00b7 Saved search detail",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 12828,
+          "name": "138 \u00b7 Saved search manager",
+          "type": "FRAME",
+          "width": 1440.0
+        }
+      ],
+      "id": 11769,
+      "name": "11 Notes and discovery",
+      "nodes": 1185,
+      "topLevel": 12
+    },
+    {
+      "frames": [
+        {
+          "height": 900.0,
+          "id": 12956,
+          "name": "139 \u00b7 Morning planning review",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 13087,
+          "name": "140 \u00b7 Evening reflection",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 13164,
+          "name": "141 \u00b7 Weekly review workflow",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 13244,
+          "name": "142 \u00b7 Monthly review workflow",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 13324,
+          "name": "143 \u00b7 Productivity analytics",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 13422,
+          "name": "144 \u00b7 Plan versus actual",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 13490,
+          "name": "145 \u00b7 Goal achievement report",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 13558,
+          "name": "146 \u00b7 Goal active limit",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 13632,
+          "name": "147 \u00b7 Area time distribution",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 13730,
+          "name": "148 \u00b7 Journal archive",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 13810,
+          "name": "149 \u00b7 Journal archive browser",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 13890,
+          "name": "150 \u00b7 Review export",
+          "type": "FRAME",
+          "width": 1440.0
+        }
+      ],
+      "id": 12955,
+      "name": "12 Reviews and insights",
+      "nodes": 1011,
+      "topLevel": 12
+    },
+    {
+      "frames": [
+        {
+          "height": 900.0,
+          "id": 13968,
+          "name": "151 \u00b7 Personal overview",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 14049,
+          "name": "152 \u00b7 Career pipeline",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 14135,
+          "name": "153 \u00b7 Upcoming interviews",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 14247,
+          "name": "154 \u00b7 Interview scheduler",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 14321,
+          "name": "155 \u00b7 Career follow-up detail",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 14412,
+          "name": "156 \u00b7 Learning dashboard",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 14488,
+          "name": "157 \u00b7 Course progress",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 14572,
+          "name": "158 \u00b7 Certification deadline",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 14684,
+          "name": "159 \u00b7 Certification tracker",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 14758,
+          "name": "160 \u00b7 Financial reminders",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 14834,
+          "name": "161 \u00b7 Savings goal",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 14894,
+          "name": "162 \u00b7 Savings goal tracker",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 14954,
+          "name": "163 \u00b7 Health routine planner",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 15095,
+          "name": "164 \u00b7 Sleep and rest intentions",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 15236,
+          "name": "165 \u00b7 Rest intention planner",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 15310,
+          "name": "166 \u00b7 Personal administration",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 15437,
+          "name": "167 \u00b7 Administration tracker",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 15564,
+          "name": "168 \u00b7 Life area detail",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 15695,
+          "name": "169 \u00b7 Area configuration",
+          "type": "FRAME",
+          "width": 1440.0
+        }
+      ],
+      "id": 13967,
+      "name": "13 Personal life areas",
+      "nodes": 1808,
+      "topLevel": 19
+    },
+    {
+      "frames": [
+        {
+          "height": 900.0,
+          "id": 15777,
+          "name": "170 \u00b7 Agent command center",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 15873,
+          "name": "171 \u00b7 CLI quick reference",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 15947,
+          "name": "172 \u00b7 MCP local server",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 16021,
+          "name": "173 \u00b7 Agent-generated task",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 16112,
+          "name": "174 \u00b7 Agent scheduling proposal",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 16218,
+          "name": "175 \u00b7 Agent change approval",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 16295,
+          "name": "176 \u00b7 Agent permission matrix",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 16388,
+          "name": "177 \u00b7 Agent activity ledger",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 16484,
+          "name": "178 \u00b7 Agent permissions",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 16577,
+          "name": "179 \u00b7 Automation gallery",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 16660,
+          "name": "180 \u00b7 Rule editor",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 16751,
+          "name": "181 \u00b7 Automation execution history",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 16831,
+          "name": "182 \u00b7 Automation scheduler",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 16924,
+          "name": "183 \u00b7 Failed agent execution",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 16992,
+          "name": "184 \u00b7 CLI structured error",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 17060,
+          "name": "185 \u00b7 Agent undo workflow",
+          "type": "FRAME",
+          "width": 1440.0
+        }
+      ],
+      "id": 15776,
+      "name": "14 Agents and automations",
+      "nodes": 1360,
+      "topLevel": 16
+    },
+    {
+      "frames": [
+        {
+          "height": 900.0,
+          "id": 17138,
+          "name": "186 \u00b7 General preferences",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 17231,
+          "name": "187 \u00b7 Appearance and density",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 17316,
+          "name": "188 \u00b7 Keyboard shortcuts",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 17391,
+          "name": "189 \u00b7 Shortcut map editor",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 17466,
+          "name": "190 \u00b7 Notification and quiet hours",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 17541,
+          "name": "191 \u00b7 Apple Calendar connection",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 17615,
+          "name": "192 \u00b7 Google Calendar connection",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 17689,
+          "name": "193 \u00b7 Calendar source management",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 17763,
+          "name": "194 \u00b7 Calendar source manager",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 17837,
+          "name": "195 \u00b7 GitHub integration",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 17911,
+          "name": "196 \u00b7 GitHub connection boundary",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 17985,
+          "name": "197 \u00b7 Local projects and branches",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 18112,
+          "name": "198 \u00b7 ICS and CSV imports",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 18189,
+          "name": "199 \u00b7 CSV import classification",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 18266,
+          "name": "200 \u00b7 CSV import preview",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 18343,
+          "name": "201 \u00b7 JSON data export",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 18420,
+          "name": "202 \u00b7 Backup history",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 18500,
+          "name": "203 \u00b7 Restore database",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 18577,
+          "name": "204 \u00b7 Security and local permissions",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 18652,
+          "name": "205 \u00b7 Remote MCP clients",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 18745,
+          "name": "206 \u00b7 Keyboard shortcut map",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 18820,
+          "name": "207 \u00b7 Diagnostics and storage",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 18892,
+          "name": "208 \u00b7 Database diagnostics report",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 18964,
+          "name": "209 \u00b7 About and version",
+          "type": "FRAME",
+          "width": 1440.0
+        }
+      ],
+      "id": 17137,
+      "name": "15 Settings and integrations",
+      "nodes": 1892,
+      "topLevel": 24
+    },
+    {
+      "frames": [
+        {
+          "height": 900.0,
+          "id": 19031,
+          "name": "210 \u00b7 First run \u00b7 empty database",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 19091,
+          "name": "211 \u00b7 Today loading skeleton",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 19166,
+          "name": "212 \u00b7 Database temporarily locked",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 19234,
+          "name": "213 \u00b7 Migration failed",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 19302,
+          "name": "214 \u00b7 Backup restore confirmation",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 19379,
+          "name": "215 \u00b7 Delete multiple projects",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 19456,
+          "name": "216 \u00b7 Scheduling conflict warning",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 19524,
+          "name": "217 \u00b7 Agent proposal rejected",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 19601,
+          "name": "218 \u00b7 Offline integration state",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 19661,
+          "name": "219 \u00b7 External provider boundary",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 19735,
+          "name": "220 \u00b7 Import partial failure",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 19812,
+          "name": "221 \u00b7 Permission denied",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 19880,
+          "name": "222 \u00b7 Long content stress",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 20007,
+          "name": "223 \u00b7 High-volume backlog",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 20134,
+          "name": "224 \u00b7 Time-zone boundary",
+          "type": "FRAME",
+          "width": 1440.0
+        }
+      ],
+      "id": 19030,
+      "name": "16 Edge states and recovery",
+      "nodes": 1219,
+      "topLevel": 15
+    },
+    {
+      "frames": [
+        {
+          "height": 900.0,
+          "id": 20251,
+          "name": "LM \u00b7 Concept A \u00b7 Convergent Bands",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 20281,
+          "name": "LM \u00b7 Concept B \u00b7 Offset Channels",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 20311,
+          "name": "LM \u00b7 Concept C \u00b7 Joined Modules",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 900.0,
+          "id": 20345,
+          "name": "LM \u00b7 Final Brand System",
+          "type": "FRAME",
+          "width": 1440.0
+        },
+        {
+          "height": 1024.0,
+          "id": 20362,
+          "name": "LM \u00b7 App Icon \u00b7 1024",
+          "type": "FRAME",
+          "width": 1024.0
+        },
+        {
+          "height": 512.0,
+          "id": 20366,
+          "name": "LM \u00b7 Standalone \u00b7 512",
+          "type": "FRAME",
+          "width": 512.0
+        },
+        {
+          "height": 300.0,
+          "id": 20369,
+          "name": "LM \u00b7 Horizontal Wordmark \u00b7 1200",
+          "type": "FRAME",
+          "width": 1200.0
+        },
+        {
+          "height": 512.0,
+          "id": 20373,
+          "name": "LM \u00b7 Dark \u00b7 512",
+          "type": "FRAME",
+          "width": 512.0
+        },
+        {
+          "height": 512.0,
+          "id": 20376,
+          "name": "LM \u00b7 Black \u00b7 512",
+          "type": "FRAME",
+          "width": 512.0
+        },
+        {
+          "height": 512.0,
+          "id": 20379,
+          "name": "LM \u00b7 White \u00b7 512",
+          "type": "FRAME",
+          "width": 512.0
+        },
+        {
+          "height": 128.0,
+          "id": 20382,
+          "name": "LM \u00b7 Menu Bar \u00b7 128",
+          "type": "FRAME",
+          "width": 128.0
+        }
+      ],
+      "id": 20250,
+      "name": "17 Brand Identity",
+      "nodes": 134,
+      "topLevel": 11
+    }
+  ],
+  "styles": 0,
+  "variables": 49
+}

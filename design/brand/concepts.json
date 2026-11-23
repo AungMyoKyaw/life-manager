@@ -1,0 +1,48 @@
+{
+  "page": "17 Brand Identity",
+  "selected": "B",
+  "selection_reason": "Offset Channels keeps a recognizable open-center silhouette and avoids checkmark/calendar symbolism while creating the strongest distinctive counterflow.",
+  "concepts": {
+    "A": {
+      "title": "Convergent Bands",
+      "tag": "FLOW / CONTINUITY",
+      "paths": [
+        "M 18 21 C 18 16 22 12 28 12 C 53 12 57 38 74 38 H 95 C 102 38 107 43 107 50 C 107 57 102 62 95 62 H 73 C 48 62 46 36 27 36 C 22 36 18 30 18 25 Z",
+        "M 18 99 C 18 104 22 108 28 108 C 53 108 57 82 74 82 H 95 C 102 82 107 77 107 70 C 107 63 102 58 95 58 H 73 C 48 58 46 84 27 84 C 22 84 18 90 18 95 Z"
+      ]
+    },
+    "B": {
+      "title": "Offset Channels",
+      "tag": "FOCUS / OPENNESS",
+      "paths": [
+        "M 24 12 C 31 12 36 17 36 24 V 61 C 36 74 45 81 59 81 H 72 C 79 81 84 86 84 93 C 84 100 79 105 72 105 H 59 C 31 105 12 87 12 61 V 24 C 12 17 17 12 24 12 Z",
+        "M 96 108 C 89 108 84 103 84 96 V 59 C 84 46 75 39 61 39 H 48 C 41 39 36 34 36 27 C 36 20 41 15 48 15 H 61 C 89 15 108 33 108 59 V 96 C 108 103 103 108 96 108 Z"
+      ]
+    },
+    "C": {
+      "title": "Joined Modules",
+      "tag": "STRUCTURE / AGENCY",
+      "paths": [
+        "M 20 12 H 47 C 55 12 60 17 60 24 C 60 31 55 36 47 36 H 36 V 47 C 36 55 31 60 24 60 C 17 60 12 55 12 47 V 20 C 12 15 15 12 20 12 Z",
+        "M 75 12 H 100 C 105 12 108 15 108 20 V 48 C 108 55 103 60 96 60 C 89 60 84 55 84 48 V 36 H 75 C 68 36 63 31 63 24 C 63 17 68 12 75 12 Z",
+        "M 26 76 C 26 69 31 64 38 64 H 82 C 89 64 94 69 94 76 V 100 C 94 105 91 108 86 108 H 34 C 29 108 26 105 26 100 Z"
+      ]
+    }
+  },
+  "frames": {
+    "app_icon": "LM \u00b7 App Icon \u00b7 1024",
+    "standalone": "LM \u00b7 Standalone \u00b7 512",
+    "horizontal": "LM \u00b7 Horizontal Wordmark \u00b7 1200",
+    "dark": "LM \u00b7 Dark \u00b7 512",
+    "black": "LM \u00b7 Black \u00b7 512",
+    "white": "LM \u00b7 White \u00b7 512",
+    "menu": "LM \u00b7 Menu Bar \u00b7 128"
+  },
+  "source": "design/scripts/build_brand_identity.py",
+  "authoritative_master": "design/life-manager-master.figcraft",
+  "tokens": {
+    "primary": "accent",
+    "dark_icon": "accent-quiet",
+    "icon_background": "surface-inverse"
+  }
+}

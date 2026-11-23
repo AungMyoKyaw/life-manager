@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <title>LifeManager-AppIcon</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M112 0 L400 0 C461.856 0 512 50.144 512 112 L512 400 C512 461.856 461.856 512 400 512 L112 512 C50.144 512 0 461.856 0 400 L0 112 C0 50.144 50.144 0 112 0 Z" fill="#162929"/>
+    <path d="M114 10 L398 10 C455.438 10 502 56.562 502 114 L502 398 C502 455.438 455.438 502 398 502 L114 502 C56.562 502 10 455.438 10 398 L10 114 C10 56.562 56.562 10 114 10 Z" fill="none" stroke="#243b3a" stroke-width="2" stroke-miterlimit="10"/>
+    <path d="M158 148 L158 248 C158 309 207 358 268 358 L278 358" fill="none" stroke="#b7d7c8" stroke-width="60" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M354 364 L354 264 C354 203 305 154 244 154 L234 154" fill="none" stroke="#419677" stroke-width="60" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="256" cy="256" r="20" fill="#f6f7f5"/>
+  </g>
+</svg>

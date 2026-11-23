@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <title>LifeManager-Symbol</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M134 120 L134 246 C134 322 196 384 272 384 L284 384" fill="none" stroke="#266c56" stroke-width="74" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M378 392 L378 266 C378 190 316 128 240 128 L228 128" fill="none" stroke="#3b9571" stroke-width="74" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="256" cy="256" r="24" fill="#162929"/>
+  </g>
+</svg>

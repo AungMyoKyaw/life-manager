@@ -1,0 +1,2018 @@
+[
+  {
+    "board_id": 1,
+    "node_id": 2,
+    "page": "01 Foundation",
+    "title": "System overview",
+    "view": "system",
+    "scenario": "Primary visual language, grid and typographic hierarchy",
+    "preview": "previews/01-foundation/001 · System overview.png"
+  },
+  {
+    "board_id": 2,
+    "node_id": 89,
+    "page": "01 Foundation",
+    "title": "App shell · spacious",
+    "view": "dashboard",
+    "scenario": "Sidebar, top bar, content cards and persistent actions",
+    "preview": "previews/01-foundation/002 · App shell · spacious.png"
+  },
+  {
+    "board_id": 3,
+    "node_id": 222,
+    "page": "01 Foundation",
+    "title": "App shell · compact",
+    "view": "list",
+    "scenario": "Denser layout and priority-first scanning",
+    "preview": "previews/01-foundation/003 · App shell · compact.png"
+  },
+  {
+    "board_id": 4,
+    "node_id": 351,
+    "page": "01 Foundation",
+    "title": "Component states",
+    "view": "system",
+    "scenario": "Buttons, inputs, badges, focus, error and disabled",
+    "preview": "previews/01-foundation/004 · Component states.png"
+  },
+  {
+    "board_id": 5,
+    "node_id": 425,
+    "page": "01 Foundation",
+    "title": "Color and type tokens",
+    "view": "system",
+    "scenario": "Semantic color system for light and dark themes",
+    "preview": "previews/01-foundation/005 · Color and type tokens.png"
+  },
+  {
+    "board_id": 6,
+    "node_id": 512,
+    "page": "01 Foundation",
+    "title": "Global command palette",
+    "view": "agent",
+    "scenario": "Keyboard-driven command and search entry",
+    "preview": "previews/01-foundation/006 · Global command palette.png"
+  },
+  {
+    "board_id": 7,
+    "node_id": 588,
+    "page": "01 Foundation",
+    "title": "Quick-add overlay",
+    "view": "state",
+    "scenario": "Natural language capture with review before save",
+    "preview": "previews/01-foundation/007 · Quick-add overlay.png"
+  },
+  {
+    "board_id": 8,
+    "node_id": 667,
+    "page": "01 Foundation",
+    "title": "Responsive small window",
+    "view": "list",
+    "scenario": "Prioritized navigation with reduced width",
+    "preview": "previews/01-foundation/008 · Responsive small window.png"
+  },
+  {
+    "board_id": 9,
+    "node_id": 749,
+    "page": "01 Foundation",
+    "title": "Dark appearance",
+    "view": "dashboard",
+    "scenario": "Contrast and calm dark theme sample",
+    "preview": "previews/01-foundation/009 · Dark appearance.png"
+  },
+  {
+    "board_id": 10,
+    "node_id": 805,
+    "page": "01 Foundation",
+    "title": "Accessibility inspection",
+    "view": "system",
+    "scenario": "Visible focus, keyboard order and type scaling",
+    "preview": "previews/01-foundation/010 · Accessibility inspection.png"
+  },
+  {
+    "board_id": 11,
+    "node_id": 879,
+    "page": "01 Foundation",
+    "title": "Accessibility audit",
+    "view": "system",
+    "scenario": "Focus rings, contrast, order and reduced motion",
+    "preview": "previews/01-foundation/011 · Accessibility audit.png"
+  },
+  {
+    "board_id": 12,
+    "node_id": 967,
+    "page": "02 First-run setup",
+    "title": "Welcome to Life Manager",
+    "view": "wizard",
+    "scenario": "Local-first onboarding and agency",
+    "preview": "previews/02-first-run-setup/012 · Welcome to Life Manager.png"
+  },
+  {
+    "board_id": 13,
+    "node_id": 1002,
+    "page": "02 First-run setup",
+    "title": "Choose your life areas",
+    "view": "wizard",
+    "scenario": "Customizable default areas",
+    "preview": "previews/02-first-run-setup/013 · Choose your life areas.png"
+  },
+  {
+    "board_id": 14,
+    "node_id": 1043,
+    "page": "02 First-run setup",
+    "title": "Select initial priorities",
+    "view": "wizard",
+    "scenario": "Explicit focus commitments",
+    "preview": "previews/02-first-run-setup/014 · Select initial priorities.png"
+  },
+  {
+    "board_id": 15,
+    "node_id": 1083,
+    "page": "02 First-run setup",
+    "title": "Choose your time zone",
+    "view": "wizard",
+    "scenario": "IANA time zone and display formats",
+    "preview": "previews/02-first-run-setup/015 · Choose your time zone.png"
+  },
+  {
+    "board_id": 16,
+    "node_id": 1117,
+    "page": "02 First-run setup",
+    "title": "Configure availability",
+    "view": "wizard",
+    "scenario": "Working, personal and protected hours",
+    "preview": "previews/02-first-run-setup/016 · Configure availability.png"
+  },
+  {
+    "board_id": 17,
+    "node_id": 1160,
+    "page": "02 First-run setup",
+    "title": "Choose reminders",
+    "view": "wizard",
+    "scenario": "Notification permission and quiet hours",
+    "preview": "previews/02-first-run-setup/017 · Choose reminders.png"
+  },
+  {
+    "board_id": 18,
+    "node_id": 1200,
+    "page": "02 First-run setup",
+    "title": "Create first task",
+    "view": "wizard",
+    "scenario": "A useful first action before exiting onboarding",
+    "preview": "previews/02-first-run-setup/018 · Create first task.png"
+  },
+  {
+    "board_id": 19,
+    "node_id": 1236,
+    "page": "02 First-run setup",
+    "title": "Ready to plan",
+    "view": "wizard",
+    "scenario": "Review configuration and launch dashboard",
+    "preview": "previews/02-first-run-setup/019 · Ready to plan.png"
+  },
+  {
+    "board_id": 20,
+    "node_id": 1278,
+    "page": "03 Today and Inbox",
+    "title": "Today · default",
+    "view": "dashboard",
+    "scenario": "Top priorities, capacity and agenda",
+    "preview": "previews/03-today-and-inbox/020 · Today · default.png"
+  },
+  {
+    "board_id": 21,
+    "node_id": 1409,
+    "page": "03 Today and Inbox",
+    "title": "Today · busy day",
+    "view": "dashboard",
+    "scenario": "Over-capacity warning and next action",
+    "preview": "previews/03-today-and-inbox/021 · Today · busy day.png"
+  },
+  {
+    "board_id": 22,
+    "node_id": 1540,
+    "page": "03 Today and Inbox",
+    "title": "Today · nothing due",
+    "view": "state",
+    "scenario": "Truly empty day without false urgency",
+    "preview": "previews/03-today-and-inbox/022 · Today · nothing due.png"
+  },
+  {
+    "board_id": 23,
+    "node_id": 1600,
+    "page": "03 Today and Inbox",
+    "title": "Next seven days",
+    "view": "calendar",
+    "scenario": "Upcoming commitments and deadlines",
+    "preview": "previews/03-today-and-inbox/023 · Next seven days.png"
+  },
+  {
+    "board_id": 24,
+    "node_id": 1691,
+    "page": "03 Today and Inbox",
+    "title": "Universal inbox",
+    "view": "list",
+    "scenario": "All captured items in one place",
+    "preview": "previews/03-today-and-inbox/024 · Universal inbox.png"
+  },
+  {
+    "board_id": 25,
+    "node_id": 1818,
+    "page": "03 Today and Inbox",
+    "title": "Inbox · capture workflow",
+    "view": "details",
+    "scenario": "Triaging a newly captured idea",
+    "preview": "previews/03-today-and-inbox/025 · Inbox · capture workflow.png"
+  },
+  {
+    "board_id": 26,
+    "node_id": 1909,
+    "page": "03 Today and Inbox",
+    "title": "Inbox · processed",
+    "view": "state",
+    "scenario": "Zero-inbox calm completion state",
+    "preview": "previews/03-today-and-inbox/026 · Inbox · processed.png"
+  },
+  {
+    "board_id": 27,
+    "node_id": 1969,
+    "page": "03 Today and Inbox",
+    "title": "Create task from text",
+    "view": "state",
+    "scenario": "Parse and confirm natural-language inputs",
+    "preview": "previews/03-today-and-inbox/027 · Create task from text.png"
+  },
+  {
+    "board_id": 28,
+    "node_id": 2046,
+    "page": "03 Today and Inbox",
+    "title": "Notification center",
+    "view": "list",
+    "scenario": "Reminder events and outstanding actions",
+    "preview": "previews/03-today-and-inbox/028 · Notification center.png"
+  },
+  {
+    "board_id": 29,
+    "node_id": 2173,
+    "page": "03 Today and Inbox",
+    "title": "Evening wind-down",
+    "view": "dashboard",
+    "scenario": "Review achievements without pressure",
+    "preview": "previews/03-today-and-inbox/029 · Evening wind-down.png"
+  },
+  {
+    "board_id": 30,
+    "node_id": 2304,
+    "page": "03 Today and Inbox",
+    "title": "Today · delayed work",
+    "view": "list",
+    "scenario": "Overdue tasks do not silently shift",
+    "preview": "previews/03-today-and-inbox/030 · Today · delayed work.png"
+  },
+  {
+    "board_id": 31,
+    "node_id": 2431,
+    "page": "03 Today and Inbox",
+    "title": "Tomorrow preview",
+    "view": "dashboard",
+    "scenario": "Plan tomorrow against actual capacity",
+    "preview": "previews/03-today-and-inbox/031 · Tomorrow preview.png"
+  },
+  {
+    "board_id": 32,
+    "node_id": 2563,
+    "page": "04 Task management",
+    "title": "Tasks · all",
+    "view": "list",
+    "scenario": "Searchable task table with status filters",
+    "preview": "previews/04-task-management/032 · Tasks · all.png"
+  },
+  {
+    "board_id": 33,
+    "node_id": 2690,
+    "page": "04 Task management",
+    "title": "Tasks · Today filter",
+    "view": "list",
+    "scenario": "Due or planned for today",
+    "preview": "previews/04-task-management/033 · Tasks · Today filter.png"
+  },
+  {
+    "board_id": 34,
+    "node_id": 2817,
+    "page": "04 Task management",
+    "title": "Tasks · Priority filter",
+    "view": "list",
+    "scenario": "P1 and P2 action queue",
+    "preview": "previews/04-task-management/034 · Tasks · Priority filter.png"
+  },
+  {
+    "board_id": 35,
+    "node_id": 2944,
+    "page": "04 Task management",
+    "title": "Task detail · open",
+    "view": "details",
+    "scenario": "Full details, metadata and checklist",
+    "preview": "previews/04-task-management/035 · Task detail · open.png"
+  },
+  {
+    "board_id": 36,
+    "node_id": 3035,
+    "page": "04 Task management",
+    "title": "Task detail · subtasks",
+    "view": "details",
+    "scenario": "Deep nesting and progress",
+    "preview": "previews/04-task-management/036 · Task detail · subtasks.png"
+  },
+  {
+    "board_id": 37,
+    "node_id": 3126,
+    "page": "04 Task management",
+    "title": "Task detail · activity",
+    "view": "details",
+    "scenario": "History, provenance and undo",
+    "preview": "previews/04-task-management/037 · Task detail · activity.png"
+  },
+  {
+    "board_id": 38,
+    "node_id": 3217,
+    "page": "04 Task management",
+    "title": "Entity activity timeline",
+    "view": "details",
+    "scenario": "The full recorded history of one record",
+    "preview": "previews/04-task-management/038 · Entity activity timeline.png"
+  },
+  {
+    "board_id": 39,
+    "node_id": 3308,
+    "page": "04 Task management",
+    "title": "Task dependencies",
+    "view": "board",
+    "scenario": "Blocked and blocking relationship flow",
+    "preview": "previews/04-task-management/039 · Task dependencies.png"
+  },
+  {
+    "board_id": 40,
+    "node_id": 3436,
+    "page": "04 Task management",
+    "title": "Recurring task editor",
+    "view": "state",
+    "scenario": "Recurrence rules, exceptions and time zones",
+    "preview": "previews/04-task-management/040 · Recurring task editor.png"
+  },
+  {
+    "board_id": 41,
+    "node_id": 3513,
+    "page": "04 Task management",
+    "title": "Recurrence exception editor",
+    "view": "details",
+    "scenario": "Skip or move one occurrence without changing the series",
+    "preview": "previews/04-task-management/041 · Recurrence exception editor.png"
+  },
+  {
+    "board_id": 42,
+    "node_id": 3604,
+    "page": "04 Task management",
+    "title": "Task templates",
+    "view": "board",
+    "scenario": "Reusable task bundles",
+    "preview": "previews/04-task-management/042 · Task templates.png"
+  },
+  {
+    "board_id": 43,
+    "node_id": 3732,
+    "page": "04 Task management",
+    "title": "Bulk-edit selection",
+    "view": "state",
+    "scenario": "Atomic multi-item changes and review",
+    "preview": "previews/04-task-management/043 · Bulk-edit selection.png"
+  },
+  {
+    "board_id": 44,
+    "node_id": 3809,
+    "page": "04 Task management",
+    "title": "Task archive",
+    "view": "list",
+    "scenario": "Completed and cancelled task history",
+    "preview": "previews/04-task-management/044 · Task archive.png"
+  },
+  {
+    "board_id": 45,
+    "node_id": 3936,
+    "page": "04 Task management",
+    "title": "Task restore",
+    "view": "state",
+    "scenario": "Restore from recoverable deletion",
+    "preview": "previews/04-task-management/045 · Task restore.png"
+  },
+  {
+    "board_id": 46,
+    "node_id": 4013,
+    "page": "04 Task management",
+    "title": "Overdue task decision",
+    "view": "state",
+    "scenario": "Explicit reschedule, snooze or keep overdue",
+    "preview": "previews/04-task-management/046 · Overdue task decision.png"
+  },
+  {
+    "board_id": 47,
+    "node_id": 4090,
+    "page": "04 Task management",
+    "title": "Overdue decision sheet",
+    "view": "state",
+    "scenario": "Choose what happens to late work",
+    "preview": "previews/04-task-management/047 · Overdue decision sheet.png"
+  },
+  {
+    "board_id": 48,
+    "node_id": 4167,
+    "page": "04 Task management",
+    "title": "Smart saved views",
+    "view": "list",
+    "scenario": "Persistent task filters and search",
+    "preview": "previews/04-task-management/048 · Smart saved views.png"
+  },
+  {
+    "board_id": 49,
+    "node_id": 4294,
+    "page": "04 Task management",
+    "title": "Saved view runner",
+    "view": "list",
+    "scenario": "Execute a stored filter and read the matching rows",
+    "preview": "previews/04-task-management/049 · Saved view runner.png"
+  },
+  {
+    "board_id": 50,
+    "node_id": 4421,
+    "page": "04 Task management",
+    "title": "Task scheduling detail",
+    "view": "details",
+    "scenario": "Start, planned, due and completed fields",
+    "preview": "previews/04-task-management/050 · Task scheduling detail.png"
+  },
+  {
+    "board_id": 51,
+    "node_id": 4513,
+    "page": "05 Projects and milestones",
+    "title": "Project portfolio",
+    "view": "life",
+    "scenario": "Overview of active work and commitments",
+    "preview": "previews/05-projects-and-milestones/051 · Project portfolio.png"
+  },
+  {
+    "board_id": 52,
+    "node_id": 4598,
+    "page": "05 Projects and milestones",
+    "title": "Projects · all",
+    "view": "list",
+    "scenario": "All projects across life areas",
+    "preview": "previews/05-projects-and-milestones/052 · Projects · all.png"
+  },
+  {
+    "board_id": 53,
+    "node_id": 4725,
+    "page": "05 Projects and milestones",
+    "title": "Project · summary",
+    "view": "dashboard",
+    "scenario": "Project scope, next steps and progress",
+    "preview": "previews/05-projects-and-milestones/053 · Project · summary.png"
+  },
+  {
+    "board_id": 54,
+    "node_id": 4802,
+    "page": "05 Projects and milestones",
+    "title": "Project · Kanban",
+    "view": "board",
+    "scenario": "Custom status sections and task cards",
+    "preview": "previews/05-projects-and-milestones/054 · Project · Kanban.png"
+  },
+  {
+    "board_id": 55,
+    "node_id": 4930,
+    "page": "05 Projects and milestones",
+    "title": "Project · timeline",
+    "view": "planning",
+    "scenario": "Milestones and dependencies against time",
+    "preview": "previews/05-projects-and-milestones/055 · Project · timeline.png"
+  },
+  {
+    "board_id": 56,
+    "node_id": 5054,
+    "page": "05 Projects and milestones",
+    "title": "Project · milestones",
+    "view": "list",
+    "scenario": "First-class milestone tracking",
+    "preview": "previews/05-projects-and-milestones/056 · Project · milestones.png"
+  },
+  {
+    "board_id": 57,
+    "node_id": 5181,
+    "page": "05 Projects and milestones",
+    "title": "Project · blockers",
+    "view": "board",
+    "scenario": "Cross-project dependency visibility",
+    "preview": "previews/05-projects-and-milestones/057 · Project · blockers.png"
+  },
+  {
+    "board_id": 58,
+    "node_id": 5256,
+    "page": "05 Projects and milestones",
+    "title": "Blocker resolution",
+    "view": "board",
+    "scenario": "See exactly what blocks each task",
+    "preview": "previews/05-projects-and-milestones/058 · Blocker resolution.png"
+  },
+  {
+    "board_id": 59,
+    "node_id": 5384,
+    "page": "05 Projects and milestones",
+    "title": "Project health report",
+    "view": "analytics",
+    "scenario": "Blocked work, progress and schedule risk",
+    "preview": "previews/05-projects-and-milestones/059 · Project health report.png"
+  },
+  {
+    "board_id": 60,
+    "node_id": 5466,
+    "page": "05 Projects and milestones",
+    "title": "Project templates",
+    "view": "board",
+    "scenario": "Reusable workflows and sections",
+    "preview": "previews/05-projects-and-milestones/060 · Project templates.png"
+  },
+  {
+    "board_id": 61,
+    "node_id": 5594,
+    "page": "05 Projects and milestones",
+    "title": "Project notes",
+    "view": "editor",
+    "scenario": "Context linked to project work",
+    "preview": "previews/05-projects-and-milestones/061 · Project notes.png"
+  },
+  {
+    "board_id": 62,
+    "node_id": 5671,
+    "page": "05 Projects and milestones",
+    "title": "Paused and archived projects",
+    "view": "list",
+    "scenario": "Inactive work remains searchable",
+    "preview": "previews/05-projects-and-milestones/062 · Paused and archived projects.png"
+  },
+  {
+    "board_id": 63,
+    "node_id": 5798,
+    "page": "05 Projects and milestones",
+    "title": "Project completion review",
+    "view": "state",
+    "scenario": "Archive, record outcome or reopen",
+    "preview": "previews/05-projects-and-milestones/063 · Project completion review.png"
+  },
+  {
+    "board_id": 64,
+    "node_id": 5876,
+    "page": "06 Goals and direction",
+    "title": "Goals overview",
+    "view": "analytics",
+    "scenario": "Annual and quarterly direction",
+    "preview": "previews/06-goals-and-direction/064 · Goals overview.png"
+  },
+  {
+    "board_id": 65,
+    "node_id": 5944,
+    "page": "06 Goals and direction",
+    "title": "Goal detail",
+    "view": "details",
+    "scenario": "Outcome, motivation, progress and linked work",
+    "preview": "previews/06-goals-and-direction/065 · Goal detail.png"
+  },
+  {
+    "board_id": 66,
+    "node_id": 6035,
+    "page": "06 Goals and direction",
+    "title": "Quarterly priorities",
+    "view": "board",
+    "scenario": "Intentionally limited active commitments",
+    "preview": "previews/06-goals-and-direction/066 · Quarterly priorities.png"
+  },
+  {
+    "board_id": 67,
+    "node_id": 6163,
+    "page": "06 Goals and direction",
+    "title": "Annual direction",
+    "view": "planning",
+    "scenario": "Long-term milestones and themes",
+    "preview": "previews/06-goals-and-direction/067 · Annual direction.png"
+  },
+  {
+    "board_id": 68,
+    "node_id": 6311,
+    "page": "06 Goals and direction",
+    "title": "OKR objective details",
+    "view": "details",
+    "scenario": "Optional measurable key results",
+    "preview": "previews/06-goals-and-direction/068 · OKR objective details.png"
+  },
+  {
+    "board_id": 69,
+    "node_id": 6402,
+    "page": "06 Goals and direction",
+    "title": "Goal progress history",
+    "view": "analytics",
+    "scenario": "Progress over time and evidence",
+    "preview": "previews/06-goals-and-direction/069 · Goal progress history.png"
+  },
+  {
+    "board_id": 70,
+    "node_id": 6470,
+    "page": "06 Goals and direction",
+    "title": "Goal monthly review",
+    "view": "details",
+    "scenario": "Assess relevance and choose the next action",
+    "preview": "previews/06-goals-and-direction/070 · Goal monthly review.png"
+  },
+  {
+    "board_id": 71,
+    "node_id": 6561,
+    "page": "06 Goals and direction",
+    "title": "Monthly goal review",
+    "view": "details",
+    "scenario": "Assess relevance and next action",
+    "preview": "previews/06-goals-and-direction/071 · Monthly goal review.png"
+  },
+  {
+    "board_id": 72,
+    "node_id": 6652,
+    "page": "06 Goals and direction",
+    "title": "Goal completed",
+    "view": "state",
+    "scenario": "Achievement record and reflection",
+    "preview": "previews/06-goals-and-direction/072 · Goal completed.png"
+  },
+  {
+    "board_id": 73,
+    "node_id": 6712,
+    "page": "06 Goals and direction",
+    "title": "Goal paused or abandoned",
+    "view": "state",
+    "scenario": "Preserve history and explanation",
+    "preview": "previews/06-goals-and-direction/073 · Goal paused or abandoned.png"
+  },
+  {
+    "board_id": 74,
+    "node_id": 6786,
+    "page": "06 Goals and direction",
+    "title": "Active-goal limit",
+    "view": "state",
+    "scenario": "Warn against unrealistic simultaneous focus",
+    "preview": "previews/06-goals-and-direction/074 · Active-goal limit.png"
+  },
+  {
+    "board_id": 75,
+    "node_id": 6861,
+    "page": "07 Calendar",
+    "title": "Calendar · day",
+    "view": "calendar",
+    "scenario": "Single-day scheduling and personal commitments",
+    "preview": "previews/07-calendar/075 · Calendar · day.png"
+  },
+  {
+    "board_id": 76,
+    "node_id": 6952,
+    "page": "07 Calendar",
+    "title": "Calendar · three days",
+    "view": "calendar",
+    "scenario": "Focused short-term capacity",
+    "preview": "previews/07-calendar/076 · Calendar · three days.png"
+  },
+  {
+    "board_id": 77,
+    "node_id": 7052,
+    "page": "07 Calendar",
+    "title": "Calendar · week",
+    "view": "calendar",
+    "scenario": "Time-grid view with time blocks",
+    "preview": "previews/07-calendar/077 · Calendar · week.png"
+  },
+  {
+    "board_id": 78,
+    "node_id": 7164,
+    "page": "07 Calendar",
+    "title": "Calendar · month",
+    "view": "calendar",
+    "scenario": "Long-horizon calendar scan",
+    "preview": "previews/07-calendar/078 · Calendar · month.png"
+  },
+  {
+    "board_id": 79,
+    "node_id": 7322,
+    "page": "07 Calendar",
+    "title": "Calendar · agenda",
+    "view": "calendar",
+    "scenario": "Accessible chronological list",
+    "preview": "previews/07-calendar/079 · Calendar · agenda.png"
+  },
+  {
+    "board_id": 80,
+    "node_id": 7421,
+    "page": "07 Calendar",
+    "title": "Create an event",
+    "view": "state",
+    "scenario": "Event type, location and time zone",
+    "preview": "previews/07-calendar/080 · Create an event.png"
+  },
+  {
+    "board_id": 81,
+    "node_id": 7498,
+    "page": "07 Calendar",
+    "title": "Edit an event",
+    "view": "details",
+    "scenario": "Metadata and date/time changes",
+    "preview": "previews/07-calendar/081 · Edit an event.png"
+  },
+  {
+    "board_id": 82,
+    "node_id": 7589,
+    "page": "07 Calendar",
+    "title": "Recurring event",
+    "view": "state",
+    "scenario": "Edit one, future or all occurrences",
+    "preview": "previews/07-calendar/082 · Recurring event.png"
+  },
+  {
+    "board_id": 83,
+    "node_id": 7666,
+    "page": "07 Calendar",
+    "title": "All-day commitments",
+    "view": "calendar",
+    "scenario": "All-day events separate from timed work",
+    "preview": "previews/07-calendar/083 · All-day commitments.png"
+  },
+  {
+    "board_id": 84,
+    "node_id": 7780,
+    "page": "07 Calendar",
+    "title": "Calendar conflict",
+    "view": "state",
+    "scenario": "Overlaps and possible alternatives",
+    "preview": "previews/07-calendar/084 · Calendar conflict.png"
+  },
+  {
+    "board_id": 85,
+    "node_id": 7848,
+    "page": "07 Calendar",
+    "title": "Time-zone travel",
+    "view": "calendar",
+    "scenario": "Keep wall-clock and instant semantics clear",
+    "preview": "previews/07-calendar/085 · Time-zone travel.png"
+  },
+  {
+    "board_id": 86,
+    "node_id": 7962,
+    "page": "07 Calendar",
+    "title": "External calendar overlay",
+    "view": "calendar",
+    "scenario": "Read-only imported and subscribed events",
+    "preview": "previews/07-calendar/086 · External calendar overlay.png"
+  },
+  {
+    "board_id": 87,
+    "node_id": 8076,
+    "page": "07 Calendar",
+    "title": "ICS import preview",
+    "view": "state",
+    "scenario": "Inspect duplicates and time zones before applying",
+    "preview": "previews/07-calendar/087 · ICS import preview.png"
+  },
+  {
+    "board_id": 88,
+    "node_id": 8153,
+    "page": "07 Calendar",
+    "title": "Calendar · no events",
+    "view": "state",
+    "scenario": "Empty time is free time, not an error",
+    "preview": "previews/07-calendar/088 · Calendar · no events.png"
+  },
+  {
+    "board_id": 89,
+    "node_id": 8214,
+    "page": "08 Scheduling and planning",
+    "title": "Daily planning session",
+    "view": "planning",
+    "scenario": "Set realistic top-three priorities",
+    "preview": "previews/08-scheduling-and-planning/089 · Daily planning session.png"
+  },
+  {
+    "board_id": 90,
+    "node_id": 8320,
+    "page": "08 Scheduling and planning",
+    "title": "Daily planning recorder",
+    "view": "planning",
+    "scenario": "Record the three priorities of the day",
+    "preview": "previews/08-scheduling-and-planning/090 · Daily planning recorder.png"
+  },
+  {
+    "board_id": 91,
+    "node_id": 8426,
+    "page": "08 Scheduling and planning",
+    "title": "Available capacity",
+    "view": "analytics",
+    "scenario": "Protect available hours and breaks",
+    "preview": "previews/08-scheduling-and-planning/091 · Available capacity.png"
+  },
+  {
+    "board_id": 92,
+    "node_id": 8524,
+    "page": "08 Scheduling and planning",
+    "title": "Weekly time budget",
+    "view": "planning",
+    "scenario": "Allocate planned effort across areas",
+    "preview": "previews/08-scheduling-and-planning/092 · Weekly time budget.png"
+  },
+  {
+    "board_id": 93,
+    "node_id": 8630,
+    "page": "08 Scheduling and planning",
+    "title": "Protected time editor",
+    "view": "settings",
+    "scenario": "Reserve recurring time that must not be moved",
+    "preview": "previews/08-scheduling-and-planning/093 · Protected time editor.png"
+  },
+  {
+    "board_id": 94,
+    "node_id": 8723,
+    "page": "08 Scheduling and planning",
+    "title": "Time-block schedule",
+    "view": "calendar",
+    "scenario": "Schedule tasks without cloning entities",
+    "preview": "previews/08-scheduling-and-planning/094 · Time-block schedule.png"
+  },
+  {
+    "board_id": 95,
+    "node_id": 8835,
+    "page": "08 Scheduling and planning",
+    "title": "Automatic schedule proposal",
+    "view": "planning",
+    "scenario": "Deterministic candidate time slots",
+    "preview": "previews/08-scheduling-and-planning/095 · Automatic schedule proposal.png"
+  },
+  {
+    "board_id": 96,
+    "node_id": 8941,
+    "page": "08 Scheduling and planning",
+    "title": "Proposal approval",
+    "view": "state",
+    "scenario": "Approve a suggested change set",
+    "preview": "previews/08-scheduling-and-planning/096 · Proposal approval.png"
+  },
+  {
+    "board_id": 97,
+    "node_id": 9018,
+    "page": "08 Scheduling and planning",
+    "title": "Conflict resolution",
+    "view": "state",
+    "scenario": "Warn and resolve overlaps",
+    "preview": "previews/08-scheduling-and-planning/097 · Conflict resolution.png"
+  },
+  {
+    "board_id": 98,
+    "node_id": 9086,
+    "page": "08 Scheduling and planning",
+    "title": "Protected time",
+    "view": "calendar",
+    "scenario": "Do not move locked time without review",
+    "preview": "previews/08-scheduling-and-planning/098 · Protected time.png"
+  },
+  {
+    "board_id": 99,
+    "node_id": 9200,
+    "page": "08 Scheduling and planning",
+    "title": "Unfinished work carryover",
+    "view": "list",
+    "scenario": "Explicitly choose next treatment",
+    "preview": "previews/08-scheduling-and-planning/099 · Unfinished work carryover.png"
+  },
+  {
+    "board_id": 100,
+    "node_id": 9327,
+    "page": "08 Scheduling and planning",
+    "title": "Travel and buffer time",
+    "view": "planning",
+    "scenario": "Respect transitions between blocks",
+    "preview": "previews/08-scheduling-and-planning/100 · Travel and buffer time.png"
+  },
+  {
+    "board_id": 101,
+    "node_id": 9433,
+    "page": "08 Scheduling and planning",
+    "title": "Time budget overrun",
+    "view": "state",
+    "scenario": "Excess planned hours and recovery",
+    "preview": "previews/08-scheduling-and-planning/101 · Time budget overrun.png"
+  },
+  {
+    "board_id": 102,
+    "node_id": 9501,
+    "page": "08 Scheduling and planning",
+    "title": "Next-week preparation",
+    "view": "planning",
+    "scenario": "Balanced advance planning",
+    "preview": "previews/08-scheduling-and-planning/102 · Next-week preparation.png"
+  },
+  {
+    "board_id": 103,
+    "node_id": 9608,
+    "page": "09 Deep work and time",
+    "title": "Focus · choose task",
+    "view": "details",
+    "scenario": "Enter a distraction-reduced session",
+    "preview": "previews/09-deep-work-and-time/103 · Focus · choose task.png"
+  },
+  {
+    "board_id": 104,
+    "node_id": 9699,
+    "page": "09 Deep work and time",
+    "title": "Focus · active",
+    "view": "focus",
+    "scenario": "Large readable timer and purpose",
+    "preview": "previews/09-deep-work-and-time/104 · Focus · active.png"
+  },
+  {
+    "board_id": 105,
+    "node_id": 9772,
+    "page": "09 Deep work and time",
+    "title": "Focus · paused",
+    "view": "focus",
+    "scenario": "Resume without double counting",
+    "preview": "previews/09-deep-work-and-time/105 · Focus · paused.png"
+  },
+  {
+    "board_id": 106,
+    "node_id": 9845,
+    "page": "09 Deep work and time",
+    "title": "Focus · short break",
+    "view": "focus",
+    "scenario": "Recovery interval, not another task",
+    "preview": "previews/09-deep-work-and-time/106 · Focus · short break.png"
+  },
+  {
+    "board_id": 107,
+    "node_id": 9918,
+    "page": "09 Deep work and time",
+    "title": "Focus · completed",
+    "view": "analytics",
+    "scenario": "Actual effort recorded on the task",
+    "preview": "previews/09-deep-work-and-time/107 · Focus · completed.png"
+  },
+  {
+    "board_id": 108,
+    "node_id": 10016,
+    "page": "09 Deep work and time",
+    "title": "Focus · Pomodoro",
+    "view": "focus",
+    "scenario": "Four configurable cycles",
+    "preview": "previews/09-deep-work-and-time/108 · Focus · Pomodoro.png"
+  },
+  {
+    "board_id": 109,
+    "node_id": 10089,
+    "page": "09 Deep work and time",
+    "title": "Focus presets and manual entry",
+    "view": "state",
+    "scenario": "Timed cycles plus honest manual records",
+    "preview": "previews/09-deep-work-and-time/109 · Focus presets and manual entry.png"
+  },
+  {
+    "board_id": 110,
+    "node_id": 10163,
+    "page": "09 Deep work and time",
+    "title": "Focus · stopwatch",
+    "view": "focus",
+    "scenario": "Open-ended elapsed tracking",
+    "preview": "previews/09-deep-work-and-time/110 · Focus · stopwatch.png"
+  },
+  {
+    "board_id": 111,
+    "node_id": 10236,
+    "page": "09 Deep work and time",
+    "title": "Idle activity review",
+    "view": "state",
+    "scenario": "Classify or exclude inactive time",
+    "preview": "previews/09-deep-work-and-time/111 · Idle activity review.png"
+  },
+  {
+    "board_id": 112,
+    "node_id": 10310,
+    "page": "09 Deep work and time",
+    "title": "Interrupted session",
+    "view": "state",
+    "scenario": "Recover after a restart or crash",
+    "preview": "previews/09-deep-work-and-time/112 · Interrupted session.png"
+  },
+  {
+    "board_id": 113,
+    "node_id": 10384,
+    "page": "09 Deep work and time",
+    "title": "Manual time entry",
+    "view": "state",
+    "scenario": "Correct a work session with audit trail",
+    "preview": "previews/09-deep-work-and-time/113 · Manual time entry.png"
+  },
+  {
+    "board_id": 114,
+    "node_id": 10461,
+    "page": "09 Deep work and time",
+    "title": "Time log history",
+    "view": "list",
+    "scenario": "Exact intervals with overlaps handled",
+    "preview": "previews/09-deep-work-and-time/114 · Time log history.png"
+  },
+  {
+    "board_id": 115,
+    "node_id": 10541,
+    "page": "09 Deep work and time",
+    "title": "Focus trends",
+    "view": "analytics",
+    "scenario": "Planned versus actual concentration",
+    "preview": "previews/09-deep-work-and-time/115 · Focus trends.png"
+  },
+  {
+    "board_id": 116,
+    "node_id": 10640,
+    "page": "10 Habits and routines",
+    "title": "Habits · weekly",
+    "view": "habits",
+    "scenario": "Visual week-by-week completion",
+    "preview": "previews/10-habits-and-routines/116 · Habits · weekly.png"
+  },
+  {
+    "board_id": 117,
+    "node_id": 10781,
+    "page": "10 Habits and routines",
+    "title": "Habits · daily checklist",
+    "view": "list",
+    "scenario": "Current applicable actions",
+    "preview": "previews/10-habits-and-routines/117 · Habits · daily checklist.png"
+  },
+  {
+    "board_id": 118,
+    "node_id": 10908,
+    "page": "10 Habits and routines",
+    "title": "Habit detail",
+    "view": "details",
+    "scenario": "Frequency, unit, streak and statistics",
+    "preview": "previews/10-habits-and-routines/118 · Habit detail.png"
+  },
+  {
+    "board_id": 119,
+    "node_id": 10999,
+    "page": "10 Habits and routines",
+    "title": "Create a habit",
+    "view": "state",
+    "scenario": "Boolean, count and duration targets",
+    "preview": "previews/10-habits-and-routines/119 · Create a habit.png"
+  },
+  {
+    "board_id": 120,
+    "node_id": 11076,
+    "page": "10 Habits and routines",
+    "title": "Routine builder",
+    "view": "board",
+    "scenario": "Order steps with optional timers",
+    "preview": "previews/10-habits-and-routines/120 · Routine builder.png"
+  },
+  {
+    "board_id": 121,
+    "node_id": 11162,
+    "page": "10 Habits and routines",
+    "title": "Morning routine",
+    "view": "habits",
+    "scenario": "Guided sequence for morning",
+    "preview": "previews/10-habits-and-routines/121 · Morning routine.png"
+  },
+  {
+    "board_id": 122,
+    "node_id": 11303,
+    "page": "10 Habits and routines",
+    "title": "Evening routine",
+    "view": "habits",
+    "scenario": "Guided sequence for wind-down",
+    "preview": "previews/10-habits-and-routines/122 · Evening routine.png"
+  },
+  {
+    "board_id": 123,
+    "node_id": 11444,
+    "page": "10 Habits and routines",
+    "title": "Habit skip decision",
+    "view": "state",
+    "scenario": "Intentional rest without false failure",
+    "preview": "previews/10-habits-and-routines/123 · Habit skip decision.png"
+  },
+  {
+    "board_id": 124,
+    "node_id": 11518,
+    "page": "10 Habits and routines",
+    "title": "Consistency analysis",
+    "view": "analytics",
+    "scenario": "Weekly patterns and trends",
+    "preview": "previews/10-habits-and-routines/124 · Consistency analysis.png"
+  },
+  {
+    "board_id": 125,
+    "node_id": 11616,
+    "page": "10 Habits and routines",
+    "title": "Habit reminders",
+    "view": "settings",
+    "scenario": "Scheduling window and quiet hours",
+    "preview": "previews/10-habits-and-routines/125 · Habit reminders.png"
+  },
+  {
+    "board_id": 126,
+    "node_id": 11709,
+    "page": "10 Habits and routines",
+    "title": "Routine completion",
+    "view": "state",
+    "scenario": "Celebrate consistency without addictive scoring",
+    "preview": "previews/10-habits-and-routines/126 · Routine completion.png"
+  },
+  {
+    "board_id": 127,
+    "node_id": 11770,
+    "page": "11 Notes and discovery",
+    "title": "Notes library",
+    "view": "list",
+    "scenario": "Searchable local knowledge entries",
+    "preview": "previews/11-notes-and-discovery/127 · Notes library.png"
+  },
+  {
+    "board_id": 128,
+    "node_id": 11897,
+    "page": "11 Notes and discovery",
+    "title": "Note editor",
+    "view": "editor",
+    "scenario": "Markdown and readable typography",
+    "preview": "previews/11-notes-and-discovery/128 · Note editor.png"
+  },
+  {
+    "board_id": 129,
+    "node_id": 11974,
+    "page": "11 Notes and discovery",
+    "title": "Note links and backlinks",
+    "view": "editor",
+    "scenario": "Cross-reference projects, goals and tasks",
+    "preview": "previews/11-notes-and-discovery/129 · Note links and backlinks.png"
+  },
+  {
+    "board_id": 130,
+    "node_id": 12051,
+    "page": "11 Notes and discovery",
+    "title": "Attached files",
+    "view": "details",
+    "scenario": "Local references and file integrity",
+    "preview": "previews/11-notes-and-discovery/130 · Attached files.png"
+  },
+  {
+    "board_id": 131,
+    "node_id": 12142,
+    "page": "11 Notes and discovery",
+    "title": "Global search",
+    "view": "list",
+    "scenario": "Search all entity types with FTS5",
+    "preview": "previews/11-notes-and-discovery/131 · Global search.png"
+  },
+  {
+    "board_id": 132,
+    "node_id": 12269,
+    "page": "11 Notes and discovery",
+    "title": "Filtered search results",
+    "view": "list",
+    "scenario": "Multi-field and saved filters",
+    "preview": "previews/11-notes-and-discovery/132 · Filtered search results.png"
+  },
+  {
+    "board_id": 133,
+    "node_id": 12396,
+    "page": "11 Notes and discovery",
+    "title": "Search with no results",
+    "view": "state",
+    "scenario": "Clear empty search action",
+    "preview": "previews/11-notes-and-discovery/133 · Search with no results.png"
+  },
+  {
+    "board_id": 134,
+    "node_id": 12456,
+    "page": "11 Notes and discovery",
+    "title": "Quick capture palette",
+    "view": "state",
+    "scenario": "Capture without navigation overhead",
+    "preview": "previews/11-notes-and-discovery/134 · Quick capture palette.png"
+  },
+  {
+    "board_id": 135,
+    "node_id": 12533,
+    "page": "11 Notes and discovery",
+    "title": "Capture parser",
+    "view": "state",
+    "scenario": "Read a date, an urgency and a tag from plain text",
+    "preview": "previews/11-notes-and-discovery/135 · Capture parser.png"
+  },
+  {
+    "board_id": 136,
+    "node_id": 12610,
+    "page": "11 Notes and discovery",
+    "title": "Inbox processing workflow",
+    "view": "details",
+    "scenario": "Clarify a note into an action",
+    "preview": "previews/11-notes-and-discovery/136 · Inbox processing workflow.png"
+  },
+  {
+    "board_id": 137,
+    "node_id": 12701,
+    "page": "11 Notes and discovery",
+    "title": "Saved search detail",
+    "view": "list",
+    "scenario": "A reusable personal lens",
+    "preview": "previews/11-notes-and-discovery/137 · Saved search detail.png"
+  },
+  {
+    "board_id": 138,
+    "node_id": 12828,
+    "page": "11 Notes and discovery",
+    "title": "Saved search manager",
+    "view": "list",
+    "scenario": "Create, run and remove reusable searches",
+    "preview": "previews/11-notes-and-discovery/138 · Saved search manager.png"
+  },
+  {
+    "board_id": 139,
+    "node_id": 12956,
+    "page": "12 Reviews and insights",
+    "title": "Morning planning review",
+    "view": "dashboard",
+    "scenario": "Choose intentional priorities",
+    "preview": "previews/12-reviews-and-insights/139 · Morning planning review.png"
+  },
+  {
+    "board_id": 140,
+    "node_id": 13087,
+    "page": "12 Reviews and insights",
+    "title": "Evening reflection",
+    "view": "editor",
+    "scenario": "Complete unfinished thoughts",
+    "preview": "previews/12-reviews-and-insights/140 · Evening reflection.png"
+  },
+  {
+    "board_id": 141,
+    "node_id": 13164,
+    "page": "12 Reviews and insights",
+    "title": "Weekly review workflow",
+    "view": "details",
+    "scenario": "Wins, blockers and next decisions",
+    "preview": "previews/12-reviews-and-insights/141 · Weekly review workflow.png"
+  },
+  {
+    "board_id": 142,
+    "node_id": 13244,
+    "page": "12 Reviews and insights",
+    "title": "Monthly review workflow",
+    "view": "details",
+    "scenario": "Goal direction and workload",
+    "preview": "previews/12-reviews-and-insights/142 · Monthly review workflow.png"
+  },
+  {
+    "board_id": 143,
+    "node_id": 13324,
+    "page": "12 Reviews and insights",
+    "title": "Productivity analytics",
+    "view": "analytics",
+    "scenario": "Explicit interpretable statistics",
+    "preview": "previews/12-reviews-and-insights/143 · Productivity analytics.png"
+  },
+  {
+    "board_id": 144,
+    "node_id": 13422,
+    "page": "12 Reviews and insights",
+    "title": "Plan versus actual",
+    "view": "analytics",
+    "scenario": "Capacity accuracy and actual effort",
+    "preview": "previews/12-reviews-and-insights/144 · Plan versus actual.png"
+  },
+  {
+    "board_id": 145,
+    "node_id": 13490,
+    "page": "12 Reviews and insights",
+    "title": "Goal achievement report",
+    "view": "analytics",
+    "scenario": "Meaningful progress summaries",
+    "preview": "previews/12-reviews-and-insights/145 · Goal achievement report.png"
+  },
+  {
+    "board_id": 146,
+    "node_id": 13558,
+    "page": "12 Reviews and insights",
+    "title": "Goal active limit",
+    "view": "state",
+    "scenario": "Warn against unrealistic simultaneous focus",
+    "preview": "previews/12-reviews-and-insights/146 · Goal active limit.png"
+  },
+  {
+    "board_id": 147,
+    "node_id": 13632,
+    "page": "12 Reviews and insights",
+    "title": "Area time distribution",
+    "view": "analytics",
+    "scenario": "Where attention actually went",
+    "preview": "previews/12-reviews-and-insights/147 · Area time distribution.png"
+  },
+  {
+    "board_id": 148,
+    "node_id": 13730,
+    "page": "12 Reviews and insights",
+    "title": "Journal archive",
+    "view": "list",
+    "scenario": "Private reflections over time",
+    "preview": "previews/12-reviews-and-insights/148 · Journal archive.png"
+  },
+  {
+    "board_id": 149,
+    "node_id": 13810,
+    "page": "12 Reviews and insights",
+    "title": "Journal archive browser",
+    "view": "list",
+    "scenario": "Read the private record by period",
+    "preview": "previews/12-reviews-and-insights/149 · Journal archive browser.png"
+  },
+  {
+    "board_id": 150,
+    "node_id": 13890,
+    "page": "12 Reviews and insights",
+    "title": "Review export",
+    "view": "state",
+    "scenario": "Portable report and data selection",
+    "preview": "previews/12-reviews-and-insights/150 · Review export.png"
+  },
+  {
+    "board_id": 151,
+    "node_id": 13968,
+    "page": "13 Personal life areas",
+    "title": "Personal overview",
+    "view": "life",
+    "scenario": "Career, learning, money and wellbeing",
+    "preview": "previews/13-personal-life-areas/151 · Personal overview.png"
+  },
+  {
+    "board_id": 152,
+    "node_id": 14049,
+    "page": "13 Personal life areas",
+    "title": "Career pipeline",
+    "view": "board",
+    "scenario": "Applications and interview stages",
+    "preview": "previews/13-personal-life-areas/152 · Career pipeline.png"
+  },
+  {
+    "board_id": 153,
+    "node_id": 14135,
+    "page": "13 Personal life areas",
+    "title": "Upcoming interviews",
+    "view": "calendar",
+    "scenario": "Preparation blocks and commitments",
+    "preview": "previews/13-personal-life-areas/153 · Upcoming interviews.png"
+  },
+  {
+    "board_id": 154,
+    "node_id": 14247,
+    "page": "13 Personal life areas",
+    "title": "Interview scheduler",
+    "view": "state",
+    "scenario": "Schedule an interview and note the preparation",
+    "preview": "previews/13-personal-life-areas/154 · Interview scheduler.png"
+  },
+  {
+    "board_id": 155,
+    "node_id": 14321,
+    "page": "13 Personal life areas",
+    "title": "Career follow-up detail",
+    "view": "details",
+    "scenario": "Named next action with reminder",
+    "preview": "previews/13-personal-life-areas/155 · Career follow-up detail.png"
+  },
+  {
+    "board_id": 156,
+    "node_id": 14412,
+    "page": "13 Personal life areas",
+    "title": "Learning dashboard",
+    "view": "life",
+    "scenario": "Courses, study sessions and projects",
+    "preview": "previews/13-personal-life-areas/156 · Learning dashboard.png"
+  },
+  {
+    "board_id": 157,
+    "node_id": 14488,
+    "page": "13 Personal life areas",
+    "title": "Course progress",
+    "view": "details",
+    "scenario": "Lessons and evidence of completion",
+    "preview": "previews/13-personal-life-areas/157 · Course progress.png"
+  },
+  {
+    "board_id": 158,
+    "node_id": 14572,
+    "page": "13 Personal life areas",
+    "title": "Certification deadline",
+    "view": "calendar",
+    "scenario": "Milestones and revision time",
+    "preview": "previews/13-personal-life-areas/158 · Certification deadline.png"
+  },
+  {
+    "board_id": 159,
+    "node_id": 14684,
+    "page": "13 Personal life areas",
+    "title": "Certification tracker",
+    "view": "state",
+    "scenario": "Track an exam date, a deadline and study time",
+    "preview": "previews/13-personal-life-areas/159 · Certification tracker.png"
+  },
+  {
+    "board_id": 160,
+    "node_id": 14758,
+    "page": "13 Personal life areas",
+    "title": "Financial reminders",
+    "view": "list",
+    "scenario": "Bills and budgets without a banking ledger",
+    "preview": "previews/13-personal-life-areas/160 · Financial reminders.png"
+  },
+  {
+    "board_id": 161,
+    "node_id": 14834,
+    "page": "13 Personal life areas",
+    "title": "Savings goal",
+    "view": "analytics",
+    "scenario": "A simple manually entered goal",
+    "preview": "previews/13-personal-life-areas/161 · Savings goal.png"
+  },
+  {
+    "board_id": 162,
+    "node_id": 14894,
+    "page": "13 Personal life areas",
+    "title": "Savings goal tracker",
+    "view": "analytics",
+    "scenario": "A manually entered target and what is saved",
+    "preview": "previews/13-personal-life-areas/162 · Savings goal tracker.png"
+  },
+  {
+    "board_id": 163,
+    "node_id": 14954,
+    "page": "13 Personal life areas",
+    "title": "Health routine planner",
+    "view": "habits",
+    "scenario": "User-defined wellness habits",
+    "preview": "previews/13-personal-life-areas/163 · Health routine planner.png"
+  },
+  {
+    "board_id": 164,
+    "node_id": 15095,
+    "page": "13 Personal life areas",
+    "title": "Sleep and rest intentions",
+    "view": "habits",
+    "scenario": "Respect a healthy schedule",
+    "preview": "previews/13-personal-life-areas/164 · Sleep and rest intentions.png"
+  },
+  {
+    "board_id": 165,
+    "node_id": 15236,
+    "page": "13 Personal life areas",
+    "title": "Rest intention planner",
+    "view": "state",
+    "scenario": "Record when rest is meant to happen",
+    "preview": "previews/13-personal-life-areas/165 · Rest intention planner.png"
+  },
+  {
+    "board_id": 166,
+    "node_id": 15310,
+    "page": "13 Personal life areas",
+    "title": "Personal administration",
+    "view": "list",
+    "scenario": "Renewals, paperwork and errands",
+    "preview": "previews/13-personal-life-areas/166 · Personal administration.png"
+  },
+  {
+    "board_id": 167,
+    "node_id": 15437,
+    "page": "13 Personal life areas",
+    "title": "Administration tracker",
+    "view": "list",
+    "scenario": "Renewals, paperwork and errands with dates",
+    "preview": "previews/13-personal-life-areas/167 · Administration tracker.png"
+  },
+  {
+    "board_id": 168,
+    "node_id": 15564,
+    "page": "13 Personal life areas",
+    "title": "Life area detail",
+    "view": "dashboard",
+    "scenario": "Contextual status and next actions",
+    "preview": "previews/13-personal-life-areas/168 · Life area detail.png"
+  },
+  {
+    "board_id": 169,
+    "node_id": 15695,
+    "page": "13 Personal life areas",
+    "title": "Area configuration",
+    "view": "settings",
+    "scenario": "Rename, recolor, hide and archive",
+    "preview": "previews/13-personal-life-areas/169 · Area configuration.png"
+  },
+  {
+    "board_id": 170,
+    "node_id": 15777,
+    "page": "14 Agents and automations",
+    "title": "Agent command center",
+    "view": "agent",
+    "scenario": "Observe agents across the shared domain layer",
+    "preview": "previews/14-agents-and-automations/170 · Agent command center.png"
+  },
+  {
+    "board_id": 171,
+    "node_id": 15873,
+    "page": "14 Agents and automations",
+    "title": "CLI quick reference",
+    "view": "agent",
+    "scenario": "Human output and structured JSON modes",
+    "preview": "previews/14-agents-and-automations/171 · CLI quick reference.png"
+  },
+  {
+    "board_id": 172,
+    "node_id": 15947,
+    "page": "14 Agents and automations",
+    "title": "MCP local server",
+    "view": "agent",
+    "scenario": "Document stdio setup and tool capabilities",
+    "preview": "previews/14-agents-and-automations/172 · MCP local server.png"
+  },
+  {
+    "board_id": 173,
+    "node_id": 16021,
+    "page": "14 Agents and automations",
+    "title": "Agent-generated task",
+    "view": "details",
+    "scenario": "Clear attribution and change history",
+    "preview": "previews/14-agents-and-automations/173 · Agent-generated task.png"
+  },
+  {
+    "board_id": 174,
+    "node_id": 16112,
+    "page": "14 Agents and automations",
+    "title": "Agent scheduling proposal",
+    "view": "planning",
+    "scenario": "Human review for calendar mutations",
+    "preview": "previews/14-agents-and-automations/174 · Agent scheduling proposal.png"
+  },
+  {
+    "board_id": 175,
+    "node_id": 16218,
+    "page": "14 Agents and automations",
+    "title": "Agent change approval",
+    "view": "state",
+    "scenario": "Review changes before applying",
+    "preview": "previews/14-agents-and-automations/175 · Agent change approval.png"
+  },
+  {
+    "board_id": 176,
+    "node_id": 16295,
+    "page": "14 Agents and automations",
+    "title": "Agent permission matrix",
+    "view": "settings",
+    "scenario": "Allow or deny action patterns per actor",
+    "preview": "previews/14-agents-and-automations/176 · Agent permission matrix.png"
+  },
+  {
+    "board_id": 177,
+    "node_id": 16388,
+    "page": "14 Agents and automations",
+    "title": "Agent activity ledger",
+    "view": "agent",
+    "scenario": "Auditable successful and failed mutations",
+    "preview": "previews/14-agents-and-automations/177 · Agent activity ledger.png"
+  },
+  {
+    "board_id": 178,
+    "node_id": 16484,
+    "page": "14 Agents and automations",
+    "title": "Agent permissions",
+    "view": "settings",
+    "scenario": "Same-user local scopes and safeguards",
+    "preview": "previews/14-agents-and-automations/178 · Agent permissions.png"
+  },
+  {
+    "board_id": 179,
+    "node_id": 16577,
+    "page": "14 Agents and automations",
+    "title": "Automation gallery",
+    "view": "agent",
+    "scenario": "Recurring event and task workflows",
+    "preview": "previews/14-agents-and-automations/179 · Automation gallery.png"
+  },
+  {
+    "board_id": 180,
+    "node_id": 16660,
+    "page": "14 Agents and automations",
+    "title": "Rule editor",
+    "view": "details",
+    "scenario": "Triggers, conditions and actions",
+    "preview": "previews/14-agents-and-automations/180 · Rule editor.png"
+  },
+  {
+    "board_id": 181,
+    "node_id": 16751,
+    "page": "14 Agents and automations",
+    "title": "Automation execution history",
+    "view": "list",
+    "scenario": "Deterministic event outcomes",
+    "preview": "previews/14-agents-and-automations/181 · Automation execution history.png"
+  },
+  {
+    "board_id": 182,
+    "node_id": 16831,
+    "page": "14 Agents and automations",
+    "title": "Automation scheduler",
+    "view": "settings",
+    "scenario": "Daily and weekly triggers with due state",
+    "preview": "previews/14-agents-and-automations/182 · Automation scheduler.png"
+  },
+  {
+    "board_id": 183,
+    "node_id": 16924,
+    "page": "14 Agents and automations",
+    "title": "Failed agent execution",
+    "view": "state",
+    "scenario": "Recoverable error with structured code",
+    "preview": "previews/14-agents-and-automations/183 · Failed agent execution.png"
+  },
+  {
+    "board_id": 184,
+    "node_id": 16992,
+    "page": "14 Agents and automations",
+    "title": "CLI structured error",
+    "view": "state",
+    "scenario": "Stable exit code and machine-readable details",
+    "preview": "previews/14-agents-and-automations/184 · CLI structured error.png"
+  },
+  {
+    "board_id": 185,
+    "node_id": 17060,
+    "page": "14 Agents and automations",
+    "title": "Agent undo workflow",
+    "view": "state",
+    "scenario": "Reversible changes and recovery boundaries",
+    "preview": "previews/14-agents-and-automations/185 · Agent undo workflow.png"
+  },
+  {
+    "board_id": 186,
+    "node_id": 17138,
+    "page": "15 Settings and integrations",
+    "title": "General preferences",
+    "view": "settings",
+    "scenario": "Formats, defaults and application behavior",
+    "preview": "previews/15-settings-and-integrations/186 · General preferences.png"
+  },
+  {
+    "board_id": 187,
+    "node_id": 17231,
+    "page": "15 Settings and integrations",
+    "title": "Appearance and density",
+    "view": "system",
+    "scenario": "System theme, typography and layouts",
+    "preview": "previews/15-settings-and-integrations/187 · Appearance and density.png"
+  },
+  {
+    "board_id": 188,
+    "node_id": 17316,
+    "page": "15 Settings and integrations",
+    "title": "Keyboard shortcuts",
+    "view": "settings",
+    "scenario": "Conflict-aware shortcut customization",
+    "preview": "previews/15-settings-and-integrations/188 · Keyboard shortcuts.png"
+  },
+  {
+    "board_id": 189,
+    "node_id": 17391,
+    "page": "15 Settings and integrations",
+    "title": "Shortcut map editor",
+    "view": "settings",
+    "scenario": "Bind a key combination and detect conflicts",
+    "preview": "previews/15-settings-and-integrations/189 · Shortcut map editor.png"
+  },
+  {
+    "board_id": 190,
+    "node_id": 17466,
+    "page": "15 Settings and integrations",
+    "title": "Notification and quiet hours",
+    "view": "settings",
+    "scenario": "Windows and OS permissions",
+    "preview": "previews/15-settings-and-integrations/190 · Notification and quiet hours.png"
+  },
+  {
+    "board_id": 191,
+    "node_id": 17541,
+    "page": "15 Settings and integrations",
+    "title": "Apple Calendar connection",
+    "view": "settings",
+    "scenario": "Optional calendar read access",
+    "preview": "previews/15-settings-and-integrations/191 · Apple Calendar connection.png"
+  },
+  {
+    "board_id": 192,
+    "node_id": 17615,
+    "page": "15 Settings and integrations",
+    "title": "Google Calendar connection",
+    "view": "settings",
+    "scenario": "Optional OAuth integration",
+    "preview": "previews/15-settings-and-integrations/192 · Google Calendar connection.png"
+  },
+  {
+    "board_id": 193,
+    "node_id": 17689,
+    "page": "15 Settings and integrations",
+    "title": "Calendar source management",
+    "view": "settings",
+    "scenario": "Visibility, priority and direction",
+    "preview": "previews/15-settings-and-integrations/193 · Calendar source management.png"
+  },
+  {
+    "board_id": 194,
+    "node_id": 17763,
+    "page": "15 Settings and integrations",
+    "title": "Calendar source manager",
+    "view": "settings",
+    "scenario": "Local and imported sources with read-only state",
+    "preview": "previews/15-settings-and-integrations/194 · Calendar source manager.png"
+  },
+  {
+    "board_id": 195,
+    "node_id": 17837,
+    "page": "15 Settings and integrations",
+    "title": "GitHub integration",
+    "view": "settings",
+    "scenario": "Repository and work item linking",
+    "preview": "previews/15-settings-and-integrations/195 · GitHub integration.png"
+  },
+  {
+    "board_id": 196,
+    "node_id": 17911,
+    "page": "15 Settings and integrations",
+    "title": "GitHub connection boundary",
+    "view": "settings",
+    "scenario": "State plainly that no repository is connected",
+    "preview": "previews/15-settings-and-integrations/196 · GitHub connection boundary.png"
+  },
+  {
+    "board_id": 197,
+    "node_id": 17985,
+    "page": "15 Settings and integrations",
+    "title": "Local projects and branches",
+    "view": "list",
+    "scenario": "Link repository paths to tasks",
+    "preview": "previews/15-settings-and-integrations/197 · Local projects and branches.png"
+  },
+  {
+    "board_id": 198,
+    "node_id": 18112,
+    "page": "15 Settings and integrations",
+    "title": "ICS and CSV imports",
+    "view": "state",
+    "scenario": "Preview and validate external data",
+    "preview": "previews/15-settings-and-integrations/198 · ICS and CSV imports.png"
+  },
+  {
+    "board_id": 199,
+    "node_id": 18189,
+    "page": "15 Settings and integrations",
+    "title": "CSV import classification",
+    "view": "state",
+    "scenario": "Classify valid, duplicate and invalid CSV rows",
+    "preview": "previews/15-settings-and-integrations/199 · CSV import classification.png"
+  },
+  {
+    "board_id": 200,
+    "node_id": 18266,
+    "page": "15 Settings and integrations",
+    "title": "CSV import preview",
+    "view": "state",
+    "scenario": "Classify valid, duplicate and invalid CSV rows",
+    "preview": "previews/15-settings-and-integrations/200 · CSV import preview.png"
+  },
+  {
+    "board_id": 201,
+    "node_id": 18343,
+    "page": "15 Settings and integrations",
+    "title": "JSON data export",
+    "view": "state",
+    "scenario": "Readable portable backup format",
+    "preview": "previews/15-settings-and-integrations/201 · JSON data export.png"
+  },
+  {
+    "board_id": 202,
+    "node_id": 18420,
+    "page": "15 Settings and integrations",
+    "title": "Backup history",
+    "view": "list",
+    "scenario": "Consistent snapshots and retention",
+    "preview": "previews/15-settings-and-integrations/202 · Backup history.png"
+  },
+  {
+    "board_id": 203,
+    "node_id": 18500,
+    "page": "15 Settings and integrations",
+    "title": "Restore database",
+    "view": "state",
+    "scenario": "Preview integrity and explicit replacement",
+    "preview": "previews/15-settings-and-integrations/203 · Restore database.png"
+  },
+  {
+    "board_id": 204,
+    "node_id": 18577,
+    "page": "15 Settings and integrations",
+    "title": "Security and local permissions",
+    "view": "settings",
+    "scenario": "Protect sensitive operations",
+    "preview": "previews/15-settings-and-integrations/204 · Security and local permissions.png"
+  },
+  {
+    "board_id": 205,
+    "node_id": 18652,
+    "page": "15 Settings and integrations",
+    "title": "Remote MCP clients",
+    "view": "settings",
+    "scenario": "Issue and revoke remote agent tokens",
+    "preview": "previews/15-settings-and-integrations/205 · Remote MCP clients.png"
+  },
+  {
+    "board_id": 206,
+    "node_id": 18745,
+    "page": "15 Settings and integrations",
+    "title": "Keyboard shortcut map",
+    "view": "settings",
+    "scenario": "Conflict-aware shortcut customization",
+    "preview": "previews/15-settings-and-integrations/206 · Keyboard shortcut map.png"
+  },
+  {
+    "board_id": 207,
+    "node_id": 18820,
+    "page": "15 Settings and integrations",
+    "title": "Diagnostics and storage",
+    "view": "settings",
+    "scenario": "Database health and sizes",
+    "preview": "previews/15-settings-and-integrations/207 · Diagnostics and storage.png"
+  },
+  {
+    "board_id": 208,
+    "node_id": 18892,
+    "page": "15 Settings and integrations",
+    "title": "Database diagnostics report",
+    "view": "settings",
+    "scenario": "Integrity, schema, size and row counts",
+    "preview": "previews/15-settings-and-integrations/208 · Database diagnostics report.png"
+  },
+  {
+    "board_id": 209,
+    "node_id": 18964,
+    "page": "15 Settings and integrations",
+    "title": "About and version",
+    "view": "settings",
+    "scenario": "Build identifiers and local paths",
+    "preview": "previews/15-settings-and-integrations/209 · About and version.png"
+  },
+  {
+    "board_id": 210,
+    "node_id": 19031,
+    "page": "16 Edge states and recovery",
+    "title": "First run · empty database",
+    "view": "state",
+    "scenario": "Provide a safe starting point",
+    "preview": "previews/16-edge-states-and-recovery/210 · First run · empty database.png"
+  },
+  {
+    "board_id": 211,
+    "node_id": 19091,
+    "page": "16 Edge states and recovery",
+    "title": "Today loading skeleton",
+    "view": "state",
+    "scenario": "No misleading interactive placeholders",
+    "preview": "previews/16-edge-states-and-recovery/211 · Today loading skeleton.png"
+  },
+  {
+    "board_id": 212,
+    "node_id": 19166,
+    "page": "16 Edge states and recovery",
+    "title": "Database temporarily locked",
+    "view": "state",
+    "scenario": "Preserve edits, retry without spin",
+    "preview": "previews/16-edge-states-and-recovery/212 · Database temporarily locked.png"
+  },
+  {
+    "board_id": 213,
+    "node_id": 19234,
+    "page": "16 Edge states and recovery",
+    "title": "Migration failed",
+    "view": "state",
+    "scenario": "Do not rewrite data or discard the backup",
+    "preview": "previews/16-edge-states-and-recovery/213 · Migration failed.png"
+  },
+  {
+    "board_id": 214,
+    "node_id": 19302,
+    "page": "16 Edge states and recovery",
+    "title": "Backup restore confirmation",
+    "view": "state",
+    "scenario": "Destructive changes require preview",
+    "preview": "previews/16-edge-states-and-recovery/214 · Backup restore confirmation.png"
+  },
+  {
+    "board_id": 215,
+    "node_id": 19379,
+    "page": "16 Edge states and recovery",
+    "title": "Delete multiple projects",
+    "view": "state",
+    "scenario": "Display scope and undo limitations",
+    "preview": "previews/16-edge-states-and-recovery/215 · Delete multiple projects.png"
+  },
+  {
+    "board_id": 216,
+    "node_id": 19456,
+    "page": "16 Edge states and recovery",
+    "title": "Scheduling conflict warning",
+    "view": "state",
+    "scenario": "Explain overlapping commitments",
+    "preview": "previews/16-edge-states-and-recovery/216 · Scheduling conflict warning.png"
+  },
+  {
+    "board_id": 217,
+    "node_id": 19524,
+    "page": "16 Edge states and recovery",
+    "title": "Agent proposal rejected",
+    "view": "state",
+    "scenario": "Log rejection and preserve prior data",
+    "preview": "previews/16-edge-states-and-recovery/217 · Agent proposal rejected.png"
+  },
+  {
+    "board_id": 218,
+    "node_id": 19601,
+    "page": "16 Edge states and recovery",
+    "title": "Offline integration state",
+    "view": "state",
+    "scenario": "Core remains usable without network",
+    "preview": "previews/16-edge-states-and-recovery/218 · Offline integration state.png"
+  },
+  {
+    "board_id": 219,
+    "node_id": 19661,
+    "page": "16 Edge states and recovery",
+    "title": "External provider boundary",
+    "view": "state",
+    "scenario": "State plainly that provider sync is not connected",
+    "preview": "previews/16-edge-states-and-recovery/219 · External provider boundary.png"
+  },
+  {
+    "board_id": 220,
+    "node_id": 19735,
+    "page": "16 Edge states and recovery",
+    "title": "Import partial failure",
+    "view": "state",
+    "scenario": "Specific rows failed, valid rows preserved",
+    "preview": "previews/16-edge-states-and-recovery/220 · Import partial failure.png"
+  },
+  {
+    "board_id": 221,
+    "node_id": 19812,
+    "page": "16 Edge states and recovery",
+    "title": "Permission denied",
+    "view": "state",
+    "scenario": "Explain the required local permission",
+    "preview": "previews/16-edge-states-and-recovery/221 · Permission denied.png"
+  },
+  {
+    "board_id": 222,
+    "node_id": 19880,
+    "page": "16 Edge states and recovery",
+    "title": "Long content stress",
+    "view": "list",
+    "scenario": "Handle large titles and notes gracefully",
+    "preview": "previews/16-edge-states-and-recovery/222 · Long content stress.png"
+  },
+  {
+    "board_id": 223,
+    "node_id": 20007,
+    "page": "16 Edge states and recovery",
+    "title": "High-volume backlog",
+    "view": "list",
+    "scenario": "Preserve rendering performance and navigation",
+    "preview": "previews/16-edge-states-and-recovery/223 · High-volume backlog.png"
+  },
+  {
+    "board_id": 224,
+    "node_id": 20134,
+    "page": "16 Edge states and recovery",
+    "title": "Time-zone boundary",
+    "view": "calendar",
+    "scenario": "DST transitions and local-midnight rules",
+    "preview": "previews/16-edge-states-and-recovery/224 · Time-zone boundary.png"
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "status": "produced_and_automatically_validated",
+  "source_master": "design/life-manager-master.figcraft",
+  "selected_concept": "B \u2014 Offset Channels",
+  "source_design_page": "17 Brand Identity",
+  "counts": {
+    "original_app_pages": 16,
+    "app_frames": 224,
+    "brand_frames": 11,
+    "total_pages": 17
+  },
+  "contrast_ratios": {
+    "accent_on_light": 5.81,
+    "mint_on_dark": 9.81
+  },
+  "native_editable": true,
+  "app_icon_transparent_corners": true,
+  "font_missing": [],
+  "exported": [
+    {
+      "file": "design/brand/exports/LifeManager-1024.png",
+      "bytes": 49868,
+      "sha256": "0a5848c8c51a7701c13e8097c4e7b29237b62390fed45b938356a316dade6d84"
+    },
+    {
+      "file": "design/brand/exports/LifeManager-128.png",
+      "bytes": 6950,
+      "sha256": "cb1f3af4972bccc2b9ee16574a899dc2d9a110070b575cf7bbb7f89e2badb6b4"
+    },
+    {
+      "file": "design/brand/exports/LifeManager-16.png",
+      "bytes": 766,
+      "sha256": "fffb9087ee8872b91e7b1a4d6948e43fa76ba2b92be50f8b763c1cbd67173f77"
+    },
+    {
+      "file": "design/brand/exports/LifeManager-256.png",
+      "bytes": 14492,
+      "sha256": "8ac0b794df2602aef9c17e2365f1f595b7a99a7c8b388ed04aaa9339e14b08b5"
+    },
+    {
+      "file": "design/brand/exports/LifeManager-32.png",
+      "bytes": 1576,
+      "sha256": "02a90d624594497d7e84e2f4c2eb8744410e223e7ab459c03706d2f231006c37"
+    },
+    {
+      "file": "design/brand/exports/LifeManager-512.png",
+      "bytes": 30056,
+      "sha256": "f6686ff1df7a4dbb660f18fb1e2ee576fa11aef0bc13ffe0adad6ffb84f949da"
+    },
+    {
+      "file": "design/brand/exports/LifeManager-64.png",
+      "bytes": 3240,
+      "sha256": "cb96a06ff47cb72b68896721773d0badecf81cae05d0f0ba72ccc635082fefbe"
+    },
+    {
+      "file": "design/brand/exports/LifeManager.icns",
+      "bytes": 175985,
+      "sha256": "0353fde231b496e4ddc64eb33aee30f8469863e38629a97c456b9b5cdedae3a2"
+    },
+    {
+      "file": "design/brand/exports/life-manager-app-icon.pdf",
+      "bytes": 2176,
+      "sha256": "787ecba563df25b034812eaae0d846c9753441c332e7b68ec6c64b1e0b877efe"
+    },
+    {
+      "file": "design/brand/exports/life-manager-app-icon.svg",
+      "bytes": 917,
+      "sha256": "d76c2c23d45c5e96aa7729b9de277792e3259fb52e1ca434174b398fdcc58397"
+    },
+    {
+      "file": "design/brand/exports/life-manager-black.png",
+      "bytes": 14520,
+      "sha256": "7f1f81f0db1d654ea84d3613ba93866fd7b73ede5c8a62994241be77b415c997"
+    },
+    {
+      "file": "design/brand/exports/life-manager-black.svg",
+      "bytes": 697,
+      "sha256": "19ed759c35c123759dbdac4c14a0c41fa4e3cb378ec6b214c00946d4e133a032"
+    },
+    {
+      "file": "design/brand/exports/life-manager-dark.png",
+      "bytes": 16024,
+      "sha256": "81aef0fa451f6c4676d17eef70b80bb9a358ef730bffdea1603d2276af06fe0a"
+    },
+    {
+      "file": "design/brand/exports/life-manager-menubar.png",
+      "bytes": 2853,
+      "sha256": "cdbf30f842d387474fd0f7ce5de4ff495965d2536a9f37cc91e16b2f0bbaa321"
+    },
+    {
+      "file": "design/brand/exports/life-manager-symbol.png",
+      "bytes": 14564,
+      "sha256": "11becd109af54b7d4294a0277de30cd680c04b2fbb2923905b05317c65596acf"
+    },
+    {
+      "file": "design/brand/exports/life-manager-symbol.svg",
+      "bytes": 697,
+      "sha256": "4ef38890d77b8cefc035737cb7bb29f74b2e17830798eab418e2b5bd2ab1f46c"
+    },
+    {
+      "file": "design/brand/exports/life-manager-white.png",
+      "bytes": 11665,
+      "sha256": "18a18e1d04f8fb92577ad6e6c25694ce92d88600acedd4c15ab88b18fca43e8a"
+    },
+    {
+      "file": "design/brand/exports/life-manager-white.svg",
+      "bytes": 697,
+      "sha256": "a725f5eb505b13f5ded40761d8f1a61442ca6c7311ad2e8f269de79a8d4f358c"
+    },
+    {
+      "file": "design/brand/exports/life-manager-wordmark.pdf",
+      "bytes": 7058,
+      "sha256": "5b7c9a391ba34ec64cff11865e7e2fa8751ddff2a98c48be111264aaf935b0ea"
+    },
+    {
+      "file": "design/brand/exports/life-manager-wordmark.png",
+      "bytes": 23637,
+      "sha256": "720cccbe248eda83b3480fe718d4d56952d48c7a496dd0395622799e13611bda"
+    },
+    {
+      "file": "design/brand/exports/life-manager-wordmark.svg",
+      "bytes": 7814,
+      "sha256": "36dec535be8f4a3e7ec9173b5462491a57850279e9ab5a07851c7cac366ebdcc"
+    },
+    {
+      "file": "design/brand/previews/concept-a.png",
+      "bytes": 81875,
+      "sha256": "24826e64688068ad8ac32e4759a28f596e86c7ef74f5d496670bc6f1f4d9d5b1"
+    },
+    {
+      "file": "design/brand/previews/concept-b.png",
+      "bytes": 78999,
+      "sha256": "2fa1857efc8827a588b58b1814315f382750ebefb4edf27827678b15337be3fc"
+    },
+    {
+      "file": "design/brand/previews/concept-c.png",
+      "bytes": 76332,
+      "sha256": "c6827b5812508254c78a8a10c4078c0f2b7255472b417067e3f839916bfc4a4c"
+    },
+    {
+      "file": "design/brand/previews/concept-final.png",
+      "bytes": 65757,
+      "sha256": "be221a948f8e09e9d8420cf53a560f6a390e083f7fdf40fb6d3b0580fac9baf1"
+    }
+  ]
+}

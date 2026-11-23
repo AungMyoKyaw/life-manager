@@ -1,0 +1,225 @@
+board_id,node_id,page,title,view,scenario,preview
+1,2,01 Foundation,System overview,system,"Primary visual language, grid and typographic hierarchy",previews/01-foundation/001 · System overview.png
+2,89,01 Foundation,App shell · spacious,dashboard,"Sidebar, top bar, content cards and persistent actions",previews/01-foundation/002 · App shell · spacious.png
+3,222,01 Foundation,App shell · compact,list,Denser layout and priority-first scanning,previews/01-foundation/003 · App shell · compact.png
+4,351,01 Foundation,Component states,system,"Buttons, inputs, badges, focus, error and disabled",previews/01-foundation/004 · Component states.png
+5,425,01 Foundation,Color and type tokens,system,Semantic color system for light and dark themes,previews/01-foundation/005 · Color and type tokens.png
+6,512,01 Foundation,Global command palette,agent,Keyboard-driven command and search entry,previews/01-foundation/006 · Global command palette.png
+7,588,01 Foundation,Quick-add overlay,state,Natural language capture with review before save,previews/01-foundation/007 · Quick-add overlay.png
+8,667,01 Foundation,Responsive small window,list,Prioritized navigation with reduced width,previews/01-foundation/008 · Responsive small window.png
+9,749,01 Foundation,Dark appearance,dashboard,Contrast and calm dark theme sample,previews/01-foundation/009 · Dark appearance.png
+10,805,01 Foundation,Accessibility inspection,system,"Visible focus, keyboard order and type scaling",previews/01-foundation/010 · Accessibility inspection.png
+11,879,01 Foundation,Accessibility audit,system,"Focus rings, contrast, order and reduced motion",previews/01-foundation/011 · Accessibility audit.png
+12,967,02 First-run setup,Welcome to Life Manager,wizard,Local-first onboarding and agency,previews/02-first-run-setup/012 · Welcome to Life Manager.png
+13,1002,02 First-run setup,Choose your life areas,wizard,Customizable default areas,previews/02-first-run-setup/013 · Choose your life areas.png
+14,1043,02 First-run setup,Select initial priorities,wizard,Explicit focus commitments,previews/02-first-run-setup/014 · Select initial priorities.png
+15,1083,02 First-run setup,Choose your time zone,wizard,IANA time zone and display formats,previews/02-first-run-setup/015 · Choose your time zone.png
+16,1117,02 First-run setup,Configure availability,wizard,"Working, personal and protected hours",previews/02-first-run-setup/016 · Configure availability.png
+17,1160,02 First-run setup,Choose reminders,wizard,Notification permission and quiet hours,previews/02-first-run-setup/017 · Choose reminders.png
+18,1200,02 First-run setup,Create first task,wizard,A useful first action before exiting onboarding,previews/02-first-run-setup/018 · Create first task.png
+19,1236,02 First-run setup,Ready to plan,wizard,Review configuration and launch dashboard,previews/02-first-run-setup/019 · Ready to plan.png
+20,1278,03 Today and Inbox,Today · default,dashboard,"Top priorities, capacity and agenda",previews/03-today-and-inbox/020 · Today · default.png
+21,1409,03 Today and Inbox,Today · busy day,dashboard,Over-capacity warning and next action,previews/03-today-and-inbox/021 · Today · busy day.png
+22,1540,03 Today and Inbox,Today · nothing due,state,Truly empty day without false urgency,previews/03-today-and-inbox/022 · Today · nothing due.png
+23,1600,03 Today and Inbox,Next seven days,calendar,Upcoming commitments and deadlines,previews/03-today-and-inbox/023 · Next seven days.png
+24,1691,03 Today and Inbox,Universal inbox,list,All captured items in one place,previews/03-today-and-inbox/024 · Universal inbox.png
+25,1818,03 Today and Inbox,Inbox · capture workflow,details,Triaging a newly captured idea,previews/03-today-and-inbox/025 · Inbox · capture workflow.png
+26,1909,03 Today and Inbox,Inbox · processed,state,Zero-inbox calm completion state,previews/03-today-and-inbox/026 · Inbox · processed.png
+27,1969,03 Today and Inbox,Create task from text,state,Parse and confirm natural-language inputs,previews/03-today-and-inbox/027 · Create task from text.png
+28,2046,03 Today and Inbox,Notification center,list,Reminder events and outstanding actions,previews/03-today-and-inbox/028 · Notification center.png
+29,2173,03 Today and Inbox,Evening wind-down,dashboard,Review achievements without pressure,previews/03-today-and-inbox/029 · Evening wind-down.png
+30,2304,03 Today and Inbox,Today · delayed work,list,Overdue tasks do not silently shift,previews/03-today-and-inbox/030 · Today · delayed work.png
+31,2431,03 Today and Inbox,Tomorrow preview,dashboard,Plan tomorrow against actual capacity,previews/03-today-and-inbox/031 · Tomorrow preview.png
+32,2563,04 Task management,Tasks · all,list,Searchable task table with status filters,previews/04-task-management/032 · Tasks · all.png
+33,2690,04 Task management,Tasks · Today filter,list,Due or planned for today,previews/04-task-management/033 · Tasks · Today filter.png
+34,2817,04 Task management,Tasks · Priority filter,list,P1 and P2 action queue,previews/04-task-management/034 · Tasks · Priority filter.png
+35,2944,04 Task management,Task detail · open,details,"Full details, metadata and checklist",previews/04-task-management/035 · Task detail · open.png
+36,3035,04 Task management,Task detail · subtasks,details,Deep nesting and progress,previews/04-task-management/036 · Task detail · subtasks.png
+37,3126,04 Task management,Task detail · activity,details,"History, provenance and undo",previews/04-task-management/037 · Task detail · activity.png
+38,3217,04 Task management,Entity activity timeline,details,The full recorded history of one record,previews/04-task-management/038 · Entity activity timeline.png
+39,3308,04 Task management,Task dependencies,board,Blocked and blocking relationship flow,previews/04-task-management/039 · Task dependencies.png
+40,3436,04 Task management,Recurring task editor,state,"Recurrence rules, exceptions and time zones",previews/04-task-management/040 · Recurring task editor.png
+41,3513,04 Task management,Recurrence exception editor,details,Skip or move one occurrence without changing the series,previews/04-task-management/041 · Recurrence exception editor.png
+42,3604,04 Task management,Task templates,board,Reusable task bundles,previews/04-task-management/042 · Task templates.png
+43,3732,04 Task management,Bulk-edit selection,state,Atomic multi-item changes and review,previews/04-task-management/043 · Bulk-edit selection.png
+44,3809,04 Task management,Task archive,list,Completed and cancelled task history,previews/04-task-management/044 · Task archive.png
+45,3936,04 Task management,Task restore,state,Restore from recoverable deletion,previews/04-task-management/045 · Task restore.png
+46,4013,04 Task management,Overdue task decision,state,"Explicit reschedule, snooze or keep overdue",previews/04-task-management/046 · Overdue task decision.png
+47,4090,04 Task management,Overdue decision sheet,state,Choose what happens to late work,previews/04-task-management/047 · Overdue decision sheet.png
+48,4167,04 Task management,Smart saved views,list,Persistent task filters and search,previews/04-task-management/048 · Smart saved views.png
+49,4294,04 Task management,Saved view runner,list,Execute a stored filter and read the matching rows,previews/04-task-management/049 · Saved view runner.png
+50,4421,04 Task management,Task scheduling detail,details,"Start, planned, due and completed fields",previews/04-task-management/050 · Task scheduling detail.png
+51,4513,05 Projects and milestones,Project portfolio,life,Overview of active work and commitments,previews/05-projects-and-milestones/051 · Project portfolio.png
+52,4598,05 Projects and milestones,Projects · all,list,All projects across life areas,previews/05-projects-and-milestones/052 · Projects · all.png
+53,4725,05 Projects and milestones,Project · summary,dashboard,"Project scope, next steps and progress",previews/05-projects-and-milestones/053 · Project · summary.png
+54,4802,05 Projects and milestones,Project · Kanban,board,Custom status sections and task cards,previews/05-projects-and-milestones/054 · Project · Kanban.png
+55,4930,05 Projects and milestones,Project · timeline,planning,Milestones and dependencies against time,previews/05-projects-and-milestones/055 · Project · timeline.png
+56,5054,05 Projects and milestones,Project · milestones,list,First-class milestone tracking,previews/05-projects-and-milestones/056 · Project · milestones.png
+57,5181,05 Projects and milestones,Project · blockers,board,Cross-project dependency visibility,previews/05-projects-and-milestones/057 · Project · blockers.png
+58,5256,05 Projects and milestones,Blocker resolution,board,See exactly what blocks each task,previews/05-projects-and-milestones/058 · Blocker resolution.png
+59,5384,05 Projects and milestones,Project health report,analytics,"Blocked work, progress and schedule risk",previews/05-projects-and-milestones/059 · Project health report.png
+60,5466,05 Projects and milestones,Project templates,board,Reusable workflows and sections,previews/05-projects-and-milestones/060 · Project templates.png
+61,5594,05 Projects and milestones,Project notes,editor,Context linked to project work,previews/05-projects-and-milestones/061 · Project notes.png
+62,5671,05 Projects and milestones,Paused and archived projects,list,Inactive work remains searchable,previews/05-projects-and-milestones/062 · Paused and archived projects.png
+63,5798,05 Projects and milestones,Project completion review,state,"Archive, record outcome or reopen",previews/05-projects-and-milestones/063 · Project completion review.png
+64,5876,06 Goals and direction,Goals overview,analytics,Annual and quarterly direction,previews/06-goals-and-direction/064 · Goals overview.png
+65,5944,06 Goals and direction,Goal detail,details,"Outcome, motivation, progress and linked work",previews/06-goals-and-direction/065 · Goal detail.png
+66,6035,06 Goals and direction,Quarterly priorities,board,Intentionally limited active commitments,previews/06-goals-and-direction/066 · Quarterly priorities.png
+67,6163,06 Goals and direction,Annual direction,planning,Long-term milestones and themes,previews/06-goals-and-direction/067 · Annual direction.png
+68,6311,06 Goals and direction,OKR objective details,details,Optional measurable key results,previews/06-goals-and-direction/068 · OKR objective details.png
+69,6402,06 Goals and direction,Goal progress history,analytics,Progress over time and evidence,previews/06-goals-and-direction/069 · Goal progress history.png
+70,6470,06 Goals and direction,Goal monthly review,details,Assess relevance and choose the next action,previews/06-goals-and-direction/070 · Goal monthly review.png
+71,6561,06 Goals and direction,Monthly goal review,details,Assess relevance and next action,previews/06-goals-and-direction/071 · Monthly goal review.png
+72,6652,06 Goals and direction,Goal completed,state,Achievement record and reflection,previews/06-goals-and-direction/072 · Goal completed.png
+73,6712,06 Goals and direction,Goal paused or abandoned,state,Preserve history and explanation,previews/06-goals-and-direction/073 · Goal paused or abandoned.png
+74,6786,06 Goals and direction,Active-goal limit,state,Warn against unrealistic simultaneous focus,previews/06-goals-and-direction/074 · Active-goal limit.png
+75,6861,07 Calendar,Calendar · day,calendar,Single-day scheduling and personal commitments,previews/07-calendar/075 · Calendar · day.png
+76,6952,07 Calendar,Calendar · three days,calendar,Focused short-term capacity,previews/07-calendar/076 · Calendar · three days.png
+77,7052,07 Calendar,Calendar · week,calendar,Time-grid view with time blocks,previews/07-calendar/077 · Calendar · week.png
+78,7164,07 Calendar,Calendar · month,calendar,Long-horizon calendar scan,previews/07-calendar/078 · Calendar · month.png
+79,7322,07 Calendar,Calendar · agenda,calendar,Accessible chronological list,previews/07-calendar/079 · Calendar · agenda.png
+80,7421,07 Calendar,Create an event,state,"Event type, location and time zone",previews/07-calendar/080 · Create an event.png
+81,7498,07 Calendar,Edit an event,details,Metadata and date/time changes,previews/07-calendar/081 · Edit an event.png
+82,7589,07 Calendar,Recurring event,state,"Edit one, future or all occurrences",previews/07-calendar/082 · Recurring event.png
+83,7666,07 Calendar,All-day commitments,calendar,All-day events separate from timed work,previews/07-calendar/083 · All-day commitments.png
+84,7780,07 Calendar,Calendar conflict,state,Overlaps and possible alternatives,previews/07-calendar/084 · Calendar conflict.png
+85,7848,07 Calendar,Time-zone travel,calendar,Keep wall-clock and instant semantics clear,previews/07-calendar/085 · Time-zone travel.png
+86,7962,07 Calendar,External calendar overlay,calendar,Read-only imported and subscribed events,previews/07-calendar/086 · External calendar overlay.png
+87,8076,07 Calendar,ICS import preview,state,Inspect duplicates and time zones before applying,previews/07-calendar/087 · ICS import preview.png
+88,8153,07 Calendar,Calendar · no events,state,"Empty time is free time, not an error",previews/07-calendar/088 · Calendar · no events.png
+89,8214,08 Scheduling and planning,Daily planning session,planning,Set realistic top-three priorities,previews/08-scheduling-and-planning/089 · Daily planning session.png
+90,8320,08 Scheduling and planning,Daily planning recorder,planning,Record the three priorities of the day,previews/08-scheduling-and-planning/090 · Daily planning recorder.png
+91,8426,08 Scheduling and planning,Available capacity,analytics,Protect available hours and breaks,previews/08-scheduling-and-planning/091 · Available capacity.png
+92,8524,08 Scheduling and planning,Weekly time budget,planning,Allocate planned effort across areas,previews/08-scheduling-and-planning/092 · Weekly time budget.png
+93,8630,08 Scheduling and planning,Protected time editor,settings,Reserve recurring time that must not be moved,previews/08-scheduling-and-planning/093 · Protected time editor.png
+94,8723,08 Scheduling and planning,Time-block schedule,calendar,Schedule tasks without cloning entities,previews/08-scheduling-and-planning/094 · Time-block schedule.png
+95,8835,08 Scheduling and planning,Automatic schedule proposal,planning,Deterministic candidate time slots,previews/08-scheduling-and-planning/095 · Automatic schedule proposal.png
+96,8941,08 Scheduling and planning,Proposal approval,state,Approve a suggested change set,previews/08-scheduling-and-planning/096 · Proposal approval.png
+97,9018,08 Scheduling and planning,Conflict resolution,state,Warn and resolve overlaps,previews/08-scheduling-and-planning/097 · Conflict resolution.png
+98,9086,08 Scheduling and planning,Protected time,calendar,Do not move locked time without review,previews/08-scheduling-and-planning/098 · Protected time.png
+99,9200,08 Scheduling and planning,Unfinished work carryover,list,Explicitly choose next treatment,previews/08-scheduling-and-planning/099 · Unfinished work carryover.png
+100,9327,08 Scheduling and planning,Travel and buffer time,planning,Respect transitions between blocks,previews/08-scheduling-and-planning/100 · Travel and buffer time.png
+101,9433,08 Scheduling and planning,Time budget overrun,state,Excess planned hours and recovery,previews/08-scheduling-and-planning/101 · Time budget overrun.png
+102,9501,08 Scheduling and planning,Next-week preparation,planning,Balanced advance planning,previews/08-scheduling-and-planning/102 · Next-week preparation.png
+103,9608,09 Deep work and time,Focus · choose task,details,Enter a distraction-reduced session,previews/09-deep-work-and-time/103 · Focus · choose task.png
+104,9699,09 Deep work and time,Focus · active,focus,Large readable timer and purpose,previews/09-deep-work-and-time/104 · Focus · active.png
+105,9772,09 Deep work and time,Focus · paused,focus,Resume without double counting,previews/09-deep-work-and-time/105 · Focus · paused.png
+106,9845,09 Deep work and time,Focus · short break,focus,"Recovery interval, not another task",previews/09-deep-work-and-time/106 · Focus · short break.png
+107,9918,09 Deep work and time,Focus · completed,analytics,Actual effort recorded on the task,previews/09-deep-work-and-time/107 · Focus · completed.png
+108,10016,09 Deep work and time,Focus · Pomodoro,focus,Four configurable cycles,previews/09-deep-work-and-time/108 · Focus · Pomodoro.png
+109,10089,09 Deep work and time,Focus presets and manual entry,state,Timed cycles plus honest manual records,previews/09-deep-work-and-time/109 · Focus presets and manual entry.png
+110,10163,09 Deep work and time,Focus · stopwatch,focus,Open-ended elapsed tracking,previews/09-deep-work-and-time/110 · Focus · stopwatch.png
+111,10236,09 Deep work and time,Idle activity review,state,Classify or exclude inactive time,previews/09-deep-work-and-time/111 · Idle activity review.png
+112,10310,09 Deep work and time,Interrupted session,state,Recover after a restart or crash,previews/09-deep-work-and-time/112 · Interrupted session.png
+113,10384,09 Deep work and time,Manual time entry,state,Correct a work session with audit trail,previews/09-deep-work-and-time/113 · Manual time entry.png
+114,10461,09 Deep work and time,Time log history,list,Exact intervals with overlaps handled,previews/09-deep-work-and-time/114 · Time log history.png
+115,10541,09 Deep work and time,Focus trends,analytics,Planned versus actual concentration,previews/09-deep-work-and-time/115 · Focus trends.png
+116,10640,10 Habits and routines,Habits · weekly,habits,Visual week-by-week completion,previews/10-habits-and-routines/116 · Habits · weekly.png
+117,10781,10 Habits and routines,Habits · daily checklist,list,Current applicable actions,previews/10-habits-and-routines/117 · Habits · daily checklist.png
+118,10908,10 Habits and routines,Habit detail,details,"Frequency, unit, streak and statistics",previews/10-habits-and-routines/118 · Habit detail.png
+119,10999,10 Habits and routines,Create a habit,state,"Boolean, count and duration targets",previews/10-habits-and-routines/119 · Create a habit.png
+120,11076,10 Habits and routines,Routine builder,board,Order steps with optional timers,previews/10-habits-and-routines/120 · Routine builder.png
+121,11162,10 Habits and routines,Morning routine,habits,Guided sequence for morning,previews/10-habits-and-routines/121 · Morning routine.png
+122,11303,10 Habits and routines,Evening routine,habits,Guided sequence for wind-down,previews/10-habits-and-routines/122 · Evening routine.png
+123,11444,10 Habits and routines,Habit skip decision,state,Intentional rest without false failure,previews/10-habits-and-routines/123 · Habit skip decision.png
+124,11518,10 Habits and routines,Consistency analysis,analytics,Weekly patterns and trends,previews/10-habits-and-routines/124 · Consistency analysis.png
+125,11616,10 Habits and routines,Habit reminders,settings,Scheduling window and quiet hours,previews/10-habits-and-routines/125 · Habit reminders.png
+126,11709,10 Habits and routines,Routine completion,state,Celebrate consistency without addictive scoring,previews/10-habits-and-routines/126 · Routine completion.png
+127,11770,11 Notes and discovery,Notes library,list,Searchable local knowledge entries,previews/11-notes-and-discovery/127 · Notes library.png
+128,11897,11 Notes and discovery,Note editor,editor,Markdown and readable typography,previews/11-notes-and-discovery/128 · Note editor.png
+129,11974,11 Notes and discovery,Note links and backlinks,editor,"Cross-reference projects, goals and tasks",previews/11-notes-and-discovery/129 · Note links and backlinks.png
+130,12051,11 Notes and discovery,Attached files,details,Local references and file integrity,previews/11-notes-and-discovery/130 · Attached files.png
+131,12142,11 Notes and discovery,Global search,list,Search all entity types with FTS5,previews/11-notes-and-discovery/131 · Global search.png
+132,12269,11 Notes and discovery,Filtered search results,list,Multi-field and saved filters,previews/11-notes-and-discovery/132 · Filtered search results.png
+133,12396,11 Notes and discovery,Search with no results,state,Clear empty search action,previews/11-notes-and-discovery/133 · Search with no results.png
+134,12456,11 Notes and discovery,Quick capture palette,state,Capture without navigation overhead,previews/11-notes-and-discovery/134 · Quick capture palette.png
+135,12533,11 Notes and discovery,Capture parser,state,"Read a date, an urgency and a tag from plain text",previews/11-notes-and-discovery/135 · Capture parser.png
+136,12610,11 Notes and discovery,Inbox processing workflow,details,Clarify a note into an action,previews/11-notes-and-discovery/136 · Inbox processing workflow.png
+137,12701,11 Notes and discovery,Saved search detail,list,A reusable personal lens,previews/11-notes-and-discovery/137 · Saved search detail.png
+138,12828,11 Notes and discovery,Saved search manager,list,"Create, run and remove reusable searches",previews/11-notes-and-discovery/138 · Saved search manager.png
+139,12956,12 Reviews and insights,Morning planning review,dashboard,Choose intentional priorities,previews/12-reviews-and-insights/139 · Morning planning review.png
+140,13087,12 Reviews and insights,Evening reflection,editor,Complete unfinished thoughts,previews/12-reviews-and-insights/140 · Evening reflection.png
+141,13164,12 Reviews and insights,Weekly review workflow,details,"Wins, blockers and next decisions",previews/12-reviews-and-insights/141 · Weekly review workflow.png
+142,13244,12 Reviews and insights,Monthly review workflow,details,Goal direction and workload,previews/12-reviews-and-insights/142 · Monthly review workflow.png
+143,13324,12 Reviews and insights,Productivity analytics,analytics,Explicit interpretable statistics,previews/12-reviews-and-insights/143 · Productivity analytics.png
+144,13422,12 Reviews and insights,Plan versus actual,analytics,Capacity accuracy and actual effort,previews/12-reviews-and-insights/144 · Plan versus actual.png
+145,13490,12 Reviews and insights,Goal achievement report,analytics,Meaningful progress summaries,previews/12-reviews-and-insights/145 · Goal achievement report.png
+146,13558,12 Reviews and insights,Goal active limit,state,Warn against unrealistic simultaneous focus,previews/12-reviews-and-insights/146 · Goal active limit.png
+147,13632,12 Reviews and insights,Area time distribution,analytics,Where attention actually went,previews/12-reviews-and-insights/147 · Area time distribution.png
+148,13730,12 Reviews and insights,Journal archive,list,Private reflections over time,previews/12-reviews-and-insights/148 · Journal archive.png
+149,13810,12 Reviews and insights,Journal archive browser,list,Read the private record by period,previews/12-reviews-and-insights/149 · Journal archive browser.png
+150,13890,12 Reviews and insights,Review export,state,Portable report and data selection,previews/12-reviews-and-insights/150 · Review export.png
+151,13968,13 Personal life areas,Personal overview,life,"Career, learning, money and wellbeing",previews/13-personal-life-areas/151 · Personal overview.png
+152,14049,13 Personal life areas,Career pipeline,board,Applications and interview stages,previews/13-personal-life-areas/152 · Career pipeline.png
+153,14135,13 Personal life areas,Upcoming interviews,calendar,Preparation blocks and commitments,previews/13-personal-life-areas/153 · Upcoming interviews.png
+154,14247,13 Personal life areas,Interview scheduler,state,Schedule an interview and note the preparation,previews/13-personal-life-areas/154 · Interview scheduler.png
+155,14321,13 Personal life areas,Career follow-up detail,details,Named next action with reminder,previews/13-personal-life-areas/155 · Career follow-up detail.png
+156,14412,13 Personal life areas,Learning dashboard,life,"Courses, study sessions and projects",previews/13-personal-life-areas/156 · Learning dashboard.png
+157,14488,13 Personal life areas,Course progress,details,Lessons and evidence of completion,previews/13-personal-life-areas/157 · Course progress.png
+158,14572,13 Personal life areas,Certification deadline,calendar,Milestones and revision time,previews/13-personal-life-areas/158 · Certification deadline.png
+159,14684,13 Personal life areas,Certification tracker,state,"Track an exam date, a deadline and study time",previews/13-personal-life-areas/159 · Certification tracker.png
+160,14758,13 Personal life areas,Financial reminders,list,Bills and budgets without a banking ledger,previews/13-personal-life-areas/160 · Financial reminders.png
+161,14834,13 Personal life areas,Savings goal,analytics,A simple manually entered goal,previews/13-personal-life-areas/161 · Savings goal.png
+162,14894,13 Personal life areas,Savings goal tracker,analytics,A manually entered target and what is saved,previews/13-personal-life-areas/162 · Savings goal tracker.png
+163,14954,13 Personal life areas,Health routine planner,habits,User-defined wellness habits,previews/13-personal-life-areas/163 · Health routine planner.png
+164,15095,13 Personal life areas,Sleep and rest intentions,habits,Respect a healthy schedule,previews/13-personal-life-areas/164 · Sleep and rest intentions.png
+165,15236,13 Personal life areas,Rest intention planner,state,Record when rest is meant to happen,previews/13-personal-life-areas/165 · Rest intention planner.png
+166,15310,13 Personal life areas,Personal administration,list,"Renewals, paperwork and errands",previews/13-personal-life-areas/166 · Personal administration.png
+167,15437,13 Personal life areas,Administration tracker,list,"Renewals, paperwork and errands with dates",previews/13-personal-life-areas/167 · Administration tracker.png
+168,15564,13 Personal life areas,Life area detail,dashboard,Contextual status and next actions,previews/13-personal-life-areas/168 · Life area detail.png
+169,15695,13 Personal life areas,Area configuration,settings,"Rename, recolor, hide and archive",previews/13-personal-life-areas/169 · Area configuration.png
+170,15777,14 Agents and automations,Agent command center,agent,Observe agents across the shared domain layer,previews/14-agents-and-automations/170 · Agent command center.png
+171,15873,14 Agents and automations,CLI quick reference,agent,Human output and structured JSON modes,previews/14-agents-and-automations/171 · CLI quick reference.png
+172,15947,14 Agents and automations,MCP local server,agent,Document stdio setup and tool capabilities,previews/14-agents-and-automations/172 · MCP local server.png
+173,16021,14 Agents and automations,Agent-generated task,details,Clear attribution and change history,previews/14-agents-and-automations/173 · Agent-generated task.png
+174,16112,14 Agents and automations,Agent scheduling proposal,planning,Human review for calendar mutations,previews/14-agents-and-automations/174 · Agent scheduling proposal.png
+175,16218,14 Agents and automations,Agent change approval,state,Review changes before applying,previews/14-agents-and-automations/175 · Agent change approval.png
+176,16295,14 Agents and automations,Agent permission matrix,settings,Allow or deny action patterns per actor,previews/14-agents-and-automations/176 · Agent permission matrix.png
+177,16388,14 Agents and automations,Agent activity ledger,agent,Auditable successful and failed mutations,previews/14-agents-and-automations/177 · Agent activity ledger.png
+178,16484,14 Agents and automations,Agent permissions,settings,Same-user local scopes and safeguards,previews/14-agents-and-automations/178 · Agent permissions.png
+179,16577,14 Agents and automations,Automation gallery,agent,Recurring event and task workflows,previews/14-agents-and-automations/179 · Automation gallery.png
+180,16660,14 Agents and automations,Rule editor,details,"Triggers, conditions and actions",previews/14-agents-and-automations/180 · Rule editor.png
+181,16751,14 Agents and automations,Automation execution history,list,Deterministic event outcomes,previews/14-agents-and-automations/181 · Automation execution history.png
+182,16831,14 Agents and automations,Automation scheduler,settings,Daily and weekly triggers with due state,previews/14-agents-and-automations/182 · Automation scheduler.png
+183,16924,14 Agents and automations,Failed agent execution,state,Recoverable error with structured code,previews/14-agents-and-automations/183 · Failed agent execution.png
+184,16992,14 Agents and automations,CLI structured error,state,Stable exit code and machine-readable details,previews/14-agents-and-automations/184 · CLI structured error.png
+185,17060,14 Agents and automations,Agent undo workflow,state,Reversible changes and recovery boundaries,previews/14-agents-and-automations/185 · Agent undo workflow.png
+186,17138,15 Settings and integrations,General preferences,settings,"Formats, defaults and application behavior",previews/15-settings-and-integrations/186 · General preferences.png
+187,17231,15 Settings and integrations,Appearance and density,system,"System theme, typography and layouts",previews/15-settings-and-integrations/187 · Appearance and density.png
+188,17316,15 Settings and integrations,Keyboard shortcuts,settings,Conflict-aware shortcut customization,previews/15-settings-and-integrations/188 · Keyboard shortcuts.png
+189,17391,15 Settings and integrations,Shortcut map editor,settings,Bind a key combination and detect conflicts,previews/15-settings-and-integrations/189 · Shortcut map editor.png
+190,17466,15 Settings and integrations,Notification and quiet hours,settings,Windows and OS permissions,previews/15-settings-and-integrations/190 · Notification and quiet hours.png
+191,17541,15 Settings and integrations,Apple Calendar connection,settings,Optional calendar read access,previews/15-settings-and-integrations/191 · Apple Calendar connection.png
+192,17615,15 Settings and integrations,Google Calendar connection,settings,Optional OAuth integration,previews/15-settings-and-integrations/192 · Google Calendar connection.png
+193,17689,15 Settings and integrations,Calendar source management,settings,"Visibility, priority and direction",previews/15-settings-and-integrations/193 · Calendar source management.png
+194,17763,15 Settings and integrations,Calendar source manager,settings,Local and imported sources with read-only state,previews/15-settings-and-integrations/194 · Calendar source manager.png
+195,17837,15 Settings and integrations,GitHub integration,settings,Repository and work item linking,previews/15-settings-and-integrations/195 · GitHub integration.png
+196,17911,15 Settings and integrations,GitHub connection boundary,settings,State plainly that no repository is connected,previews/15-settings-and-integrations/196 · GitHub connection boundary.png
+197,17985,15 Settings and integrations,Local projects and branches,list,Link repository paths to tasks,previews/15-settings-and-integrations/197 · Local projects and branches.png
+198,18112,15 Settings and integrations,ICS and CSV imports,state,Preview and validate external data,previews/15-settings-and-integrations/198 · ICS and CSV imports.png
+199,18189,15 Settings and integrations,CSV import classification,state,"Classify valid, duplicate and invalid CSV rows",previews/15-settings-and-integrations/199 · CSV import classification.png
+200,18266,15 Settings and integrations,CSV import preview,state,"Classify valid, duplicate and invalid CSV rows",previews/15-settings-and-integrations/200 · CSV import preview.png
+201,18343,15 Settings and integrations,JSON data export,state,Readable portable backup format,previews/15-settings-and-integrations/201 · JSON data export.png
+202,18420,15 Settings and integrations,Backup history,list,Consistent snapshots and retention,previews/15-settings-and-integrations/202 · Backup history.png
+203,18500,15 Settings and integrations,Restore database,state,Preview integrity and explicit replacement,previews/15-settings-and-integrations/203 · Restore database.png
+204,18577,15 Settings and integrations,Security and local permissions,settings,Protect sensitive operations,previews/15-settings-and-integrations/204 · Security and local permissions.png
+205,18652,15 Settings and integrations,Remote MCP clients,settings,Issue and revoke remote agent tokens,previews/15-settings-and-integrations/205 · Remote MCP clients.png
+206,18745,15 Settings and integrations,Keyboard shortcut map,settings,Conflict-aware shortcut customization,previews/15-settings-and-integrations/206 · Keyboard shortcut map.png
+207,18820,15 Settings and integrations,Diagnostics and storage,settings,Database health and sizes,previews/15-settings-and-integrations/207 · Diagnostics and storage.png
+208,18892,15 Settings and integrations,Database diagnostics report,settings,"Integrity, schema, size and row counts",previews/15-settings-and-integrations/208 · Database diagnostics report.png
+209,18964,15 Settings and integrations,About and version,settings,Build identifiers and local paths,previews/15-settings-and-integrations/209 · About and version.png
+210,19031,16 Edge states and recovery,First run · empty database,state,Provide a safe starting point,previews/16-edge-states-and-recovery/210 · First run · empty database.png
+211,19091,16 Edge states and recovery,Today loading skeleton,state,No misleading interactive placeholders,previews/16-edge-states-and-recovery/211 · Today loading skeleton.png
+212,19166,16 Edge states and recovery,Database temporarily locked,state,"Preserve edits, retry without spin",previews/16-edge-states-and-recovery/212 · Database temporarily locked.png
+213,19234,16 Edge states and recovery,Migration failed,state,Do not rewrite data or discard the backup,previews/16-edge-states-and-recovery/213 · Migration failed.png
+214,19302,16 Edge states and recovery,Backup restore confirmation,state,Destructive changes require preview,previews/16-edge-states-and-recovery/214 · Backup restore confirmation.png
+215,19379,16 Edge states and recovery,Delete multiple projects,state,Display scope and undo limitations,previews/16-edge-states-and-recovery/215 · Delete multiple projects.png
+216,19456,16 Edge states and recovery,Scheduling conflict warning,state,Explain overlapping commitments,previews/16-edge-states-and-recovery/216 · Scheduling conflict warning.png
+217,19524,16 Edge states and recovery,Agent proposal rejected,state,Log rejection and preserve prior data,previews/16-edge-states-and-recovery/217 · Agent proposal rejected.png
+218,19601,16 Edge states and recovery,Offline integration state,state,Core remains usable without network,previews/16-edge-states-and-recovery/218 · Offline integration state.png
+219,19661,16 Edge states and recovery,External provider boundary,state,State plainly that provider sync is not connected,previews/16-edge-states-and-recovery/219 · External provider boundary.png
+220,19735,16 Edge states and recovery,Import partial failure,state,"Specific rows failed, valid rows preserved",previews/16-edge-states-and-recovery/220 · Import partial failure.png
+221,19812,16 Edge states and recovery,Permission denied,state,Explain the required local permission,previews/16-edge-states-and-recovery/221 · Permission denied.png
+222,19880,16 Edge states and recovery,Long content stress,list,Handle large titles and notes gracefully,previews/16-edge-states-and-recovery/222 · Long content stress.png
+223,20007,16 Edge states and recovery,High-volume backlog,list,Preserve rendering performance and navigation,previews/16-edge-states-and-recovery/223 · High-volume backlog.png
+224,20134,16 Edge states and recovery,Time-zone boundary,calendar,DST transitions and local-midnight rules,previews/16-edge-states-and-recovery/224 · Time-zone boundary.png

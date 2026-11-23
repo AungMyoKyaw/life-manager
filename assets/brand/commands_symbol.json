@@ -1,0 +1,14 @@
+[
+  {"command": "file.new", "params": {"name": "LifeManager-Symbol", "width": 512, "height": 512}},
+  {"command": "path.create", "params": {"d": "M 134 120 L 134 246 C 134 322 196 384 272 384 L 284 384", "closed": false}},
+  {"command": "paint.setFill", "params": {"none": true}},
+  {"command": "paint.setStroke", "params": {"color": "#266C56"}},
+  {"command": "stroke.set", "params": {"weight": 74, "cap": "round", "join": "round"}},
+  {"command": "path.create", "params": {"d": "M 378 392 L 378 266 C 378 190 316 128 240 128 L 228 128", "closed": false}},
+  {"command": "paint.setFill", "params": {"none": true}},
+  {"command": "paint.setStroke", "params": {"color": "#3B9571"}},
+  {"command": "stroke.set", "params": {"weight": 74, "cap": "round", "join": "round"}},
+  {"command": "shape.ellipse", "params": {"x": 232, "y": 232, "width": 48, "height": 48}},
+  {"command": "paint.setFill", "params": {"color": "#162929"}},
+  {"command": "paint.setStroke", "params": {"none": true}}
+]

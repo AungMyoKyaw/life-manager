@@ -1,0 +1,21 @@
+{
+  "test_name": "static_figcraft_qa",
+  "pages": 17,
+  "frames": 235,
+  "native_nodes": 20384,
+  "preview_files": 224,
+  "unique_preview_hashes": 224,
+  "contact_sheets": 16,
+  "mapped_decisions": 200,
+  "out_of_frame_layers": 0,
+  "missing_fonts": [],
+  "token_variables": 49,
+  "token_collections": 3,
+  "token_bound_layers": 20351,
+  "token_bound_colors": 17435,
+  "lucide_icon_layers": 2916,
+  "alignment_problems": 0,
+  "errors": [],
+  "status": "PASS",
+  "scope": "Native FigCraft and static preview integrity ONLY; not application functionality, interactive accessibility or implementation readiness."
+}
