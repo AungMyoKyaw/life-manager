@@ -3,7 +3,19 @@ name: CI
 on:
   push:
     branches: [master, main]
+    paths-ignore:
+      - '**.md'
+      - 'docs/**'
+      - 'homebrew/**'
+      - 'LICENSE*'
+      - '.gitignore'
   pull_request:
+    paths-ignore:
+      - '**.md'
+      - 'docs/**'
+      - 'homebrew/**'
+      - 'LICENSE*'
+      - '.gitignore'
   workflow_dispatch:
 
 concurrency:
@@ -76,6 +88,7 @@ jobs:
           }
 
       - name: Check formatting
+        if: runner.os == 'Linux'
         run: cargo fmt --all -- --check
 
       - name: Lint workspace
@@ -87,8 +100,23 @@ jobs:
       - name: Build release binaries
         run: cargo build --release -p life-cli -p life-gpui
 
+      - name: Run CLI and MCP integration suites
+        if: runner.os != 'Windows'
+        env:
+          LIFE_CLI: ${{ github.workspace }}/target/release/life
+        run: |
+          python3 qa/full_e2e.py
+          python3 qa/figcraft_parity_e2e.py
+          python3 qa/v9_extensions_e2e.py
+          python3 qa/v11_reminders_habits_e2e.py
+          python3 qa/parity_v15_e2e.py
+          python3 qa/release_e2e.py
+          python3 qa/encryption_e2e.py
+
       - name: Package & upload artifacts (macOS)
         if: runner.os == 'macOS'
+        env:
+          CARGO_TARGET_DIR: ${{ github.workspace }}/target
         run: |
           ./scripts/release.sh build
           ./scripts/release.sh dmg
@@ -116,8 +144,10 @@ jobs:
           ./dist/life.exe --json stats | Out-Null
 
       - uses: actions/upload-artifact@v4
+        if: github.event_name != 'pull_request'
         with:
           name: life-manager-${{ matrix.os }}
+          retention-days: 3
           path: |
             dist/life
             dist/life.exe
@@ -126,36 +156,6 @@ jobs:
             dist/*.dll
             dist/LifeManager.dmg
           if-no-files-found: ignore
-
-  integration:
-    name: CLI & MCP integration (${{ matrix.os }})
-    runs-on: ${{ matrix.os }}
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [macos-latest, ubuntu-latest]
-    steps:
-      - uses: actions/checkout@v4
-      - uses: dtolnay/rust-toolchain@stable
-      - uses: Swatinem/rust-cache@v2
-      - name: Install Linux SSL dev
-        if: runner.os == 'Linux'
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pkg-config libssl-dev
-      - name: Build release CLI
-        run: cargo build --release -p life-cli
-      - name: Run CLI and MCP integration suites
-        env:
-          LIFE_CLI: ${{ github.workspace }}/target/release/life
-        run: |
-          python3 qa/full_e2e.py
-          python3 qa/figcraft_parity_e2e.py
-          python3 qa/v9_extensions_e2e.py
-          python3 qa/v11_reminders_habits_e2e.py
-          python3 qa/parity_v15_e2e.py
-          python3 qa/release_e2e.py
-          python3 qa/encryption_e2e.py
 
   design:
     name: FigCraft design validation
