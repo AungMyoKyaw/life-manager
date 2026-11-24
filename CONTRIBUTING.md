@@ -34,8 +34,11 @@ python3 qa/v11_reminders_habits_e2e.py
 python3 qa/parity_v15_e2e.py
 python3 qa/release_e2e.py
 python3 qa/encryption_e2e.py
+python3 qa/board_coverage.py
 python3 design/scripts/validate_design.py
 ```
+
+Or use the `Makefile` shortcuts (`make check`, `make test`, `make lint`, `make validate-design`).
 
 ## Changing the design
 

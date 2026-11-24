@@ -62,4 +62,4 @@ The geometry was authored as custom vector paths for this project. A visual comp
 
 ## Integration boundary
 
-**Application integration was separately authorized and completed on 2026-11-14.** The sidebar mark, wordmark, favicon and Tauri bundle/platform icons now use the selected identity. See `docs/BRAND_INTEGRATION.md` for code paths, tests and rebuild instructions. The application has no menu-bar tray feature; none was introduced. Release publication and app installation are not included.
+**Brand asset sync is wired via `scripts/sync-brand-assets.py`**, which populates `assets/brand/` and `assets/icons/` (including `assets/icons/icon.icns` used by `scripts/release.sh` for `Life Manager.app`). The GPUI desktop shell (`crates/life-gpui/src/views.rs`) currently renders `IconName::Sparkles` in the sidebar header rather than the Offset Channels SVG mark. The application has no menu-bar tray feature; none was introduced. Release publication and app notarization are not included.

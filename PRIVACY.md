@@ -8,20 +8,21 @@ Everything you enter — tasks, projects, goals, calendar events, habits, notes,
 
     ~/Library/Application Support/LifeManager/life.sqlite
 
-The app does not upload data by default. It works with the network disconnected.
+(Override the database path with `--db <PATH>` or `LIFE_DB`.)
+
+The app does not upload data by default. It works with the network disconnected. Optional encryption at rest is available via `life db encrypt` (see `SECURITY.md`).
 
 ## The network
 
-Life Manager makes no network request of its own. Two optional features can:
+Life Manager makes no network request of its own. Two areas relate to external connectivity:
 
-- **External calendar and repository integrations.** These are off until you configure them. When enabled, data is exchanged with the provider you selected. Google Calendar and GitHub read their client credentials from environment variables at run time and store the resulting access token in your macOS Keychain, never in the database. Apple Calendar reads the calendar database that macOS already exposes to your user. CalDAV reads the server you point it at.
-- **The remote MCP server.** It is off until you start it, it binds to the loopback interface by default, and it requires a bearer token that is stored only as a SHA-256 hash.
+- **External calendar and repository integrations.** Off by default. Currently `integrations.configure` only checks `LIFE_*` environment variables and records configuration status in `integration_accounts`; macOS Keychain token storage, OAuth token exchange, EventKit calendar reading, and live CalDAV/Google/GitHub network sync are not yet implemented.
+- **The remote MCP server.** Off until you start it (`life mcp remote`), binds to `127.0.0.1` by default (requiring `--allow-remote` for non-loopback addresses), and requires a bearer token stored only as a SHA-256 hash.
 
 ## What the app reads from the system
 
-- macOS Notification Center permission state, to tell you honestly whether reminders can be delivered.
-- EventKit, only if you grant access to Apple Calendar.
-- Your own launchd user agent directory, to install the optional background reminder worker.
+- macOS Notification Center permission state, to report whether reminders can be delivered.
+- Your own `launchd` user agent directory, to install the optional background reminder worker.
 
 ## Telemetry
 
@@ -29,7 +30,7 @@ There is none. No analytics, no crash reporting, no update check.
 
 ## Exports and deletion
 
-Every record is in your database and in your exports. `life export` writes a JSON copy, and the app can restore from a verified SQLite backup. Deleting the database file removes everything.
+`life export` writes a JSON snapshot of the 16 core tables (`areas`, `projects`, `goals`, `tasks`, `events`, `habits`, `habit_logs`, `notes`, `focus_sessions`, `settings`, `managed_attachments` [metadata only, without `content` BLOBs], `career_applications`, `learning_tracks`, `learning_sessions`, `finance_commitments`, `wellbeing_checkins`, `reminder_delivery`); newer v12–v16 tables (such as `milestones`, `routines`, `reviews`, `goal_cycles`, `savings_goals`, `certifications`, `rest_intentions`, `administration_items`) are included in full SQLite backups (`life backup create`) rather than `life export`. Deleting the database file removes everything.
 
 ## Permissions the app requests
 

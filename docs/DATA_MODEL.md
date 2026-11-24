@@ -10,33 +10,41 @@ Every record has a UUIDv7 primary key. Timestamps are stored as RFC 3339 strings
 
 Mutable records carry a `revision` counter. An update may state the revision it expects; a mismatch is a conflict rather than a silent overwrite. The agent's undo uses the same mechanism, so an undo is refused when the record has moved on.
 
-## Soft deletion
+## Deletion and archiving
 
-Tasks, areas and the personal life-area records are archived with `deleted_at` rather than erased. The archive is reachable, and a restore brings the record back with its history intact.
+Tasks are soft-deleted with `deleted_at` and can be restored (`tasks.restore`). `areas`, `habits`, `routines`, and `task_templates` use an `archived` integer flag (`project_templates` uses `archived_at`). `projects`, `goals`, `events`, `notes`, and `wellbeing_checkins` perform hard `DELETE`.
 
 ## The main tables
 
-| Table | Holds |
+Schema v16 defines 46 tables plus 1 FTS5 virtual table (`task_search`):
+
+| Table(s) | Holds |
 |---|---|
-| `areas` | Life areas |
-| `projects`, `goals`, `key_results` | Projects, goals and their measurable outcomes |
-| `tasks`, `milestones` | Tasks with subtasks, dependencies, recurrence and milestones |
-| `recurrence_exceptions` | A single occurrence of a recurring task, skipped or moved |
-| `events`, `calendar_sources` | Calendar events and the sources they come from |
-| `availability_rules`, `protected_blocks`, `time_budgets` | Working hours, protected time and weekly budgets |
-| `habits`, `habit_logs`, `routines`, `routine_steps` | Habits and routines |
-| `focus_sessions`, `focus_pauses`, `focus_presets` | Focus sessions, their pauses and their presets |
-| `notes`, `entity_links` | Notes and the links between any two records |
-| `reviews`, `guided_reviews`, `goal_cycles` | Reviews, guided review drafts and planning periods |
-| `attachments` | Managed file attachments, checksummed and never inlined |
-| `action_history`, `action_changes` | The activity ledger and the undo ledger |
-| `agent_permissions`, `agent_proposals` | Who may do what, and what is waiting for review |
-| `security_audit` | Privileged operations, in order |
-| `settings`, `keyboard_shortcuts` | Preferences and the shortcut map |
+| `schema_migrations`, `idempotency_keys` | Applied schema versions and request idempotency cache |
+| `areas` | Life areas (`archived` flag) |
+| `projects`, `project_templates`, `goals`, `key_results`, `goal_progress_history` | Projects, templates, goals, OKRs, and progress snapshots |
+| `tasks`, `task_dependencies`, `task_templates`, `milestones`, `task_search` | Tasks, dependencies, templates, milestones, and FTS5 index |
+| `recurrence_exceptions` | Single occurrences of a recurring task, skipped or moved |
+| `events`, `calendar_sources`, `imported_records` | Calendar events, sources, and external import tracking |
+| `availability_rules`, `protected_blocks`, `time_budgets` | Working hours, protected time, and weekly area budgets |
+| `habits`, `habit_logs`, `routines`, `routine_steps` | Habits, daily logs, and ordered routines |
+| `focus_sessions`, `focus_pauses`, `focus_presets` | Focus sessions, pauses, and timer presets |
+| `notes`, `entity_links` | Markdown notes and links between records |
+| `reviews`, `guided_reviews`, `goal_cycles`, `goal_cycle_items` | Reviews, guided review drafts, and goal cycles |
+| `saved_filters`, `saved_searches` | Reusable task filters and saved search queries |
+| `managed_attachments` | Managed file attachments with SHA-256 checksums and inlined `content BLOB` (8 MiB limit) |
+| `action_history`, `action_changes` | Activity ledger and undo ledger |
+| `agent_permissions`, `agent_proposals`, `security_audit` | Actor permissions, reviewable proposals, and security audit log |
+| `automation_rules`, `automation_runs`, `automation_schedules` | Local automation triggers, runs, and schedules |
+| `career_applications`, `interview_events`, `learning_tracks`, `learning_sessions`, `certifications` | Career pipeline, interviews, learning tracks, sessions, and certifications |
+| `finance_commitments`, `savings_goals`, `wellbeing_checkins`, `rest_intentions`, `administration_items` | Finance commitments, savings, wellbeing, rest, and personal admin |
+| `reminder_delivery`, `notification_authorization` | Reminder delivery leases and notification permission state |
+| `integration_accounts`, `remote_mcp_clients` | Integration account status and hashed remote MCP bearer tokens |
+| `settings`, `keyboard_shortcuts` | Preferences and shortcut bindings |
 
 ## Search
 
-Task titles and descriptions are indexed in an FTS5 virtual table and kept in step with the task table. The index lives inside the database, so it is encrypted with everything else.
+`task_search` is an FTS5 virtual table inside the database (encrypted with everything else) updated on task create, update, and hard delete. `Store::search` currently queries records using SQL `LIKE` rather than FTS5 `MATCH`.
 
 ## Migrations
 
@@ -44,4 +52,4 @@ Each migration is guarded by the schema version and is additive. A database from
 
 ## Protection
 
-The database is plain SQLite by default. `life db encrypt` converts it to a SQLCipher database whose key is derived from a passphrase with Argon2id. The state file beside the database records the salt and the parameters, never the key and never the passphrase.
+The database is plain SQLite by default. `life db encrypt` converts it to a SQLCipher database whose key is derived from a passphrase with Argon2id (or supplied directly via `LIFE_DB_KEY`). The `<db_filename>.encryption.json` state file beside the database records `protection`, `salt`, `params`, `cipher`, `page_size`, `hmac`, and `kdf`, never the key and never the passphrase.

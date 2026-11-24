@@ -37,7 +37,7 @@ All three were built as independent, editable vector paths in the same native ma
 | Contrast of `#B7D7C8` on `#162929` | 9.81:1 |
 | Light, dark, grayscale and several surface specimens | Rendered and inspected |
 | Repeatable asset generation | PASS; source generator and exporter retained |
-| App/sidebar replacement | DONE following separate authorization on 2026-11-14; see `docs/BRAND_INTEGRATION.md` |
+| App/bundle asset sync | Synced to `assets/brand/` and `assets/icons/` via `scripts/sync-brand-assets.py`; `scripts/release.sh` packages `assets/icons/icon.icns` |
 | Git commit/push/deployment | NONE |
 
 ## Evidence
@@ -51,4 +51,4 @@ All three were built as independent, editable vector paths in the same native ma
 
 ## Boundaries and remaining work
 
-The sidebar, favicon and Tauri bundle icons have now been integrated into the application code and verified with 60 passing browser tests (including onboarding), successful Svelte checks/build and a signed local macOS `.app` bundle. No menu-bar tray feature currently exists. System-wide installation, notarization and release publication remain out of scope. Distinctiveness review is visual only and does not constitute trademark clearance. Native UI runtime interactions were not exhaustively exercised; browser Playwright coverage and bundle signing were verified. See `docs/BRAND_INTEGRATION.md`.
+Brand icons and assets are synced into `assets/brand/` and `assets/icons/` via `scripts/sync-brand-assets.py`, and `scripts/release.sh build` packages `assets/icons/icon.icns` into the ad-hoc signed macOS `Life Manager.app` bundle. The GPUI desktop shell (`crates/life-gpui/src/views.rs`) currently renders `IconName::Sparkles` in the sidebar header rather than the Offset Channels mark. No menu-bar tray feature currently exists. System-wide installation, notarization and release publication remain out of scope. Distinctiveness review is visual only and does not constitute trademark clearance.

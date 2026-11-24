@@ -4,10 +4,11 @@
 
 | Suite | Command | Scope |
 |---|---|---|
-| Rust domain | `cargo test --workspace --offline` | The store, the migrations, GPUI views, and every action |
-| MCP contract | `cargo test -p life-cli` | The published tool catalog and its schemas |
-| GPUI Desktop | `cargo test -p life-gpui` | Headless GPUI rendering across all 18 views and SQLCipher unlock |
+| Rust domain | `cargo test --workspace --offline` | 100 tests total: `life-core` (86), `life-cli` (10), and `life-gpui` (4) |
+| MCP contract | `cargo test -p life-cli` | `reminder_runner` (2) and `tests/mcp_contract.rs` (8) |
+| GPUI Desktop | `cargo test -p life-gpui` | `BackendHandle`, design token parity, and 2 `#[gpui_kit::test]` headless GPUI workspace/encryption tests |
 | CLI and MCP | `python3 qa/*_e2e.py` | The release binary against disposable databases |
+| Board coverage | `python3 qa/board_coverage.py` | FigCraft board coverage across `crates/life-gpui/src` |
 | Design | `python3 design/scripts/validate_design.py` | The FigCraft master and its exports |
 
 ## What the CLI and MCP suites cover
@@ -22,7 +23,7 @@
 | `release_e2e.py` | The life-area trackers, the workflow gaps, CSV import, shortcuts, diagnostics, the security audit, the remote MCP server |
 | `encryption_e2e.py` | Encryption end to end: the backup, the ciphertext, the wrong passphrase, the encrypted backup, the decrypt |
 
-Every one of them runs against a disposable SQLite file through the compiled release binary, so it exercises the same code path the desktop app uses.
+Every one of them runs against a disposable SQLite file through the compiled release binary, so it exercises the same code path the desktop app uses. (`v9_extensions_e2e.py` and `v11_reminders_habits_e2e.py` default `LIFE_CLI` to `dist/life`; the other five default to `/tmp/life-manager-target/release/life` unless `LIFE_CLI` is set.)
 
 ## The design gate
 
@@ -37,4 +38,4 @@ Every one of them runs against a disposable SQLite file through the compiled rel
 
 ## What is not covered
 
-There is no VoiceOver session and no full 224-board pixel diff. The browser suite runs in Chromium, not Safari. The reminder delivery path is verified through the CLI, but macOS Notification Center authorisation is not exercised. These are the open edges, and they are listed as such in `docs/FIGCRAFT_PARITY_AUDIT.md`.
+There is no VoiceOver session and no full 224-board pixel diff. The reminder delivery path is verified through the CLI, but macOS Notification Center authorisation is not exercised.

@@ -17,7 +17,7 @@ Most questions are answered by the documentation in this repository:
 
 **The app will not open on another Mac.** The build is ad-hoc signed and Gatekeeper rejects it. Right-click the app and choose Open, or build a signed and notarized copy yourself with `./scripts/release.sh all`.
 
-**The CLI says it needs a passphrase.** The database is encrypted. Set `LIFE_DB_PASSPHRASE` or pass `--passphrase`.
+**The CLI says it needs a passphrase.** The database is encrypted. Set `LIFE_DB_PASSPHRASE` or `LIFE_DB_KEY`, or pass `--passphrase` (for `life db encrypt|decrypt`). Pass `--db <PATH>` (or `LIFE_DB`) to target a non-default database file.
 
 **The reminder worker is not sending anything.** Check that reminders are enabled, that macOS has allowed notifications for Life Manager in System Settings, and that the current time is outside your quiet hours. `life reminder status` shows whether the worker is installed.
 

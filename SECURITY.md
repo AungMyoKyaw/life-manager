@@ -13,11 +13,11 @@ The realistic risks are:
 
 ## What the app does
 
-- **The database can be encrypted at rest.** `life db encrypt --passphrase "..."` converts it to a SQLCipher database. The key is derived from the passphrase with Argon2id and is never written to the database, to the state file or to the repository. Headless use reads `LIFE_DB_PASSPHRASE`.
+- **The database can be encrypted at rest.** `life db encrypt --passphrase "..."` converts it to a SQLCipher database. The key is derived from the passphrase with Argon2id and is never written to the database, to the state file or to the repository. Headless use reads `LIFE_DB_PASSPHRASE` or `LIFE_DB_KEY`.
 - **The database is not encrypted by default.** A plain database is a plain SQLite file. Say so; do not imply otherwise.
 - **Backups are verified.** Every backup is integrity checked before it is accepted, and a verified snapshot is taken before an encryption change or a restore.
 - **Agent actions are attributable.** Every mutation records the actor, and the agent permission model can refuse an action pattern for an actor.
-- **The remote MCP server is local by default.** It binds the loopback interface, requires a bearer token, validates every argument, and refuses a non-loopback bind unless `--allow-remote` is given. Its transport is plain HTTP, so it must not be exposed to a network you do not control.
+- **The remote MCP server is local by default.** It binds the loopback interface, requires a bearer token, validates every argument, and refuses a non-loopback bind unless `--allow-remote` is given. Its transport is plain HTTP, so it must not be exposed to a network you do not control. Remote calls with `.create`, `.update`, `.delete`, `.add`, `.apply`, `.set`, `.log`, `.run`, or `.complete` suffixes write `security_audit` entries with the client name.
 - **The launchd worker is opt in.** It is only installed after the user has been told what it does.
 
 ## What the app does not do

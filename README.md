@@ -1,6 +1,6 @@
 # Life Manager
 
-A local-first personal productivity app for macOS, built natively in Rust with [GPUI](https://gpui.rs) (`crates/life-gpui`), an in-process SQLite/SQLCipher engine (`crates/life-core`), and a standalone CLI + MCP server (`crates/life-cli`). Tasks, calendar, projects, goals, focus sessions, habits, routines, notes, reviews, explainable insights, personal life domains, and agent guardrails all live in one SQLite file on your Mac.
+A local-first personal productivity app (macOS-primary; CI also builds and tests on Linux and Windows), built natively in Rust with [GPUI](https://gpui.rs) (`crates/life-gpui`), an in-process SQLite/SQLCipher engine (`crates/life-core`), and a standalone CLI + MCP server (`crates/life-cli`). Tasks, calendar, projects, goals, focus sessions, habits, routines, notes, reviews, explainable insights, personal life domains, and agent guardrails all live in one SQLite file.
 
 > **Status:** the build in this repository is **ad-hoc signed and not notarized**, so macOS rejects it on other Macs. See [Release](#release). There is no account, no telemetry and no server.
 
@@ -11,7 +11,7 @@ A local-first personal productivity app for macOS, built natively in Rust with [
 - **Today** — a calm dashboard of your real priorities, your commitments and your actual remaining capacity.
 - **Inbox and Tasks** — capture in one gesture, then process when you are ready. Interactive priority pills (`P1–P4`), snooze, recurrence with per-occurrence exceptions, dependencies, templates, bulk edits and reusable saved views.
 - **Calendar and Planning** — day, three-day, week, month and agenda views, overdue decision triage, carryover of unfinished work, protected time windows, weekly area time budgets and deterministic schedule proposals you approve before they land.
-- **Projects and Goals** — milestones, timelines, a 3-column Kanban board, project templates, measurable key results (OKRs) and progress tracking.
+- **Projects and Goals** — milestones, timelines, a 3-column Kanban board (click status transitions), project templates, measurable key results (OKRs) and progress tracking.
 - **Focus** — live 1-second focus ring timer, stopwatch/pomodoro/manual entries, interruption reasons and trends against planned effort.
 - **Habits, Routines, Notes, Reviews and Insights** — flexible cadences with no coercive streaks, repeatable ordered routine steps, editable markdown notes, daily/weekly/monthly guided reviews and explainable area/goal reports.
 - **Personal life areas** — domain responsibility cards plus career pipeline, learning tracks (`+30m` session logging), financial commitments and daily wellbeing check-ins.
@@ -24,6 +24,8 @@ To run the native GPUI desktop app in development mode:
 ```bash
 make dev
 ```
+
+Other `Makefile` targets: `make build`, `make release`, `make test`, `make lint`, `make fmt`, `make check`, and `make validate-design`.
 
 To build the release macOS `.app` bundle (`dist/Life Manager.app`) and standalone `dist/life` CLI binary:
 
@@ -86,8 +88,11 @@ python3 qa/v11_reminders_habits_e2e.py
 python3 qa/parity_v15_e2e.py
 python3 qa/release_e2e.py
 python3 qa/encryption_e2e.py
+python3 qa/board_coverage.py
 python3 design/scripts/validate_design.py
 ```
+
+> Note: `qa/v9_extensions_e2e.py` and `qa/v11_reminders_habits_e2e.py` default `LIFE_CLI` to `dist/life`; the other `*_e2e.py` scripts default to `/tmp/life-manager-target/release/life` unless `LIFE_CLI` is set.
 
 ## The design system
 

@@ -17,8 +17,12 @@ python3 qa/v9_extensions_e2e.py
 python3 qa/v11_reminders_habits_e2e.py
 python3 qa/parity_v15_e2e.py
 python3 qa/release_e2e.py
+python3 qa/encryption_e2e.py
+python3 qa/board_coverage.py
 python3 design/scripts/validate_design.py
 ```
+
+Note: `qa/v9_extensions_e2e.py` and `qa/v11_reminders_habits_e2e.py` default `LIFE_CLI` to `dist/life` (run `./scripts/release.sh build` or set `LIFE_CLI=/tmp/life-manager-target/release/life`).
 
 Expected: no failures anywhere. The design validation must report `PASS`.
 
@@ -79,13 +83,12 @@ Attach the disk image and, optionally, the raw application bundle. The Homebrew 
 
 - Verify a clean install on a second machine: drag the app to Applications, launch it, complete onboarding, create a task, then confirm `life task list --json` shows the same task.
 - Confirm `brew install --cask life-manager` works from the published cask.
-- Update `docs/IMPLEMENTATION_STATUS.md` and `docs/FIGCRAFT_PARITY_AUDIT.md` with the published version and its verification evidence.
+- Update `CHANGELOG.md` with the published version and verification summary.
 
 ## What is still outside the release
 
 These are honest boundaries, not defects to hide:
 
-- The GitHub, Google Calendar and CalDAV adapters need your own OAuth client credentials. The code path and the configuration check exist; the credentials do not ship with the app.
-- Apple Calendar needs macOS calendar permission from the user.
+- The GitHub, Google Calendar, CalDAV, and Apple Calendar integrations (`integrations.configure`) currently check `LIFE_*` environment variables and record status in `integration_accounts`; macOS Keychain token storage and live OAuth/CalDAV/EventKit sync are not yet implemented.
 - The background reminder worker delivers through Notification Center, which the user must authorise.
-- The database is not encrypted at rest. Do not claim otherwise in any release note.
+- The database is unencrypted by default; optional SQLCipher + Argon2id encryption at rest is available via `life db encrypt`.

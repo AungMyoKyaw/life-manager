@@ -4,19 +4,32 @@ Both interfaces call the same Rust domain as the desktop app. There is one datab
 
 ## The command line
 
+Global flags: `--db <PATH>` (or `LIFE_DB`), `--actor <ACTOR>` (default `user`), `--json`.
+
 ```bash
 life today --json
+life dashboard --json
+life stats --json
 life task create --title "Prepare the review" --priority 2
 life task list --json
-life calendar propose --date 2026-05-01
-life db status
-life db encrypt --passphrase "..."
+life project|goal|event|note|area <list|get|create|update|complete|delete|restore>
+life areas
+life calendar list|conflicts|propose --date 2026-05-01
+life habit list|create|log|delete
+life focus list|start|stop
+life agent history
+life backup create|verify|restore
+life search <query>
+life export --out <path>
+life call <action> [--input <file> | --payload <json>]
+life db status|encrypt|decrypt
 life mcp serve --stdio
+life mcp tools
 life mcp remote --port 0
-life reminder status
+life reminder check|preview|install|uninstall|status
 ```
 
-Every command prints a JSON envelope with `ok` and `data`, or `ok: false` and a stable error code:
+With `--json`, commands print `{"ok": true, "data": ...}` to stdout; without `--json`, they print raw pretty-printed JSON (`life mcp tools` always prints a raw JSON array, and `life export --out <path>` prints only the output path). Errors always print `{"ok": false, "error": {"code": ..., "message": ...}}` to **stderr**:
 
 | Code | Meaning |
 |---|---|
@@ -26,12 +39,15 @@ Every command prints a JSON envelope with `ok` and `data`, or `ok: false` and a 
 | `DATABASE_ERROR` | SQLite refused the operation |
 | `IO_ERROR` | A file could not be read or written |
 | `JSON_ERROR` | The payload was not valid JSON |
+| `UNAUTHORIZED` | Missing or invalid remote MCP bearer token (HTTP 401) |
+| `FORBIDDEN` | Revoked token or blocked remote host (HTTP 403) |
+| `INVALID_JSON` | Malformed JSON body on `POST /mcp` (HTTP 400) |
 
 ## The MCP server
 
 `life mcp serve --stdio` speaks the Model Context Protocol over standard input and output. `life mcp remote --port 0` serves the same tool catalog over HTTP on the loopback interface.
 
-The catalog is generated from one table, `crates/life-cli/src/action_spec.rs`, which holds every action, its description, its parameters and its required fields. Adding an action there adds it to the CLI and to the MCP server together.
+The catalog is generated from one table, `crates/life-cli/src/action_spec.rs` (263 actions; `Store::dispatch` also handles `goals.delete` and `projects.delete` directly), which holds every action, its description, its parameters and its required fields. Adding an action there adds it to the CLI and to the MCP server together.
 
 ### The tool contract
 
@@ -46,11 +62,13 @@ The tool names published by earlier releases keep working. `crates/life-cli/test
 
 ### The remote server
 
-- It binds the loopback interface. A non-loopback bind needs `--allow-remote`, because the transport is plain HTTP.
-- It requires a bearer token. Tokens are stored only as hashes and can be revoked.
-- It refuses an unknown or revoked token, and a request with no token.
-- It validates every argument against the action specification before running it.
-- Every remote write is recorded in the security audit with the client name.
+- Exposes `GET /health` and `POST /mcp`.
+- Binds `127.0.0.1` by default (`--host` to override). A non-loopback bind requires `--allow-remote`, because the transport is plain HTTP.
+- Requires a bearer token. Tokens are stored only as hashes (`remote_mcp_clients`) and can be revoked.
+- Refuses an unknown or revoked token, and a request with no token.
+- Validates every argument against the action specification before running it.
+- For encrypted databases, set `LIFE_DB_PASSPHRASE` or `LIFE_DB_KEY` (`mcp remote` does not accept `--passphrase`).
+- Writes `security.audit.log` entries with the client name for `.create`, `.update`, `.delete`, `.add`, `.apply`, `.set`, `.log`, `.run`, and `.complete` action suffixes.
 
 ## Idempotency and attribution
 
@@ -66,4 +84,4 @@ life db encrypt --passphrase  # a verified plain backup is taken first
 life db decrypt --confirm      # the database becomes readable on disk
 ```
 
-Headless use reads the passphrase from `LIFE_DB_PASSPHRASE`. The passphrase is never written to the database, the state file or the repository.
+Headless use reads `LIFE_DB_PASSPHRASE` or `LIFE_DB_KEY`. Neither is ever written to the database, the state file or the repository.
