@@ -18,17 +18,30 @@ cask "life-manager" do
 
   url "https://github.com/$REPO/releases/download/v#{version}/LifeManager.dmg"
   name "Life Manager"
-  desc "A local-first personal productivity app: tasks, calendar, focus, habits and goals."
+  desc "Local-first productivity app for tasks, calendar, focus, habits, and goals"
   homepage "https://github.com/$REPO"
 
-  app "Life Manager.app"
+  livecheck do
+    url :url
+    regex(/^v?(\\d+(?:\\.\\d+)+)$/i)
+  end
 
-  depends_on macos: ">= :monterey"
+  depends_on arch: :arm64
+  depends_on macos: :ventura
+
+  app "Life Manager.app"
+  binary "#{appdir}/Life Manager.app/Contents/MacOS/life"
+
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args:         ["-dr", "com.apple.quarantine", "{{appdir}}/Life Manager.app"],
+        must_succeed: false
+  end
 
   zap trash: [
     "~/Library/Application Support/LifeManager",
-    "~/Library/Preferences/app.lifemanager.desktop.plist",
-    "~/Library/Saved Application State/app.lifemanager.desktop.savedState",
+    "~/Library/Preferences/local.lifemanager.desktop.plist",
+    "~/Library/Saved Application State/local.lifemanager.desktop.savedState",
   ]
 end
 RUBY
